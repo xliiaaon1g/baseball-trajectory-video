@@ -1,4 +1,4 @@
-# 个人项目：Baseball Trajectory Learning and Controlled Video
+# Baseball Pitch Trajectory Modeling and Controlled Video Generation: A Pilot Implementation
 
 **Phase I — completed implementation stages 1–5.** A personal project connecting reviewed 2D observations, Statcast-derived 3D reference states, learned continuous-state evolution, an explicit effective camera, editable initial conditions, and frozen video generation.
 

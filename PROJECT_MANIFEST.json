@@ -1,0 +1,2030 @@
+{
+  "scope": "Final curated publication files; root manifest excludes itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 312,
+      "sha256": "ba020016de9319c1258f9bc11297d06584147f00b0652d0a33c68f653575e875"
+    },
+    {
+      "path": "LICENSE_NOTICE.md",
+      "bytes": 603,
+      "sha256": "9f482bbbe99c15a492bb73189521622c37fe37f3228936ba02e6b2e6a235845e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4793,
+      "sha256": "df74e3df1089caa1b8a46127954083e85332b2c249b76c4943efa2c30ab3a574"
+    },
+    {
+      "path": "bradish_pilot/README.md",
+      "bytes": 3168,
+      "sha256": "ab86119c18250a92ae90f728c67b90f35d2250a9e0b8ec9591f14908f0f7e0f3"
+    },
+    {
+      "path": "bradish_pilot/annotate.py",
+      "bytes": 3100,
+      "sha256": "dc4c6741582d9c25e0087b7b2e9e98c4ee6e04448dcd3d8ff7bd1065788b4f62"
+    },
+    {
+      "path": "bradish_pilot/autodl_ff_sl_job.py",
+      "bytes": 5459,
+      "sha256": "9cfa76231fec75788d4c3e074ed8e0c9c75f394f7a7b55cb0900021e7faa0180"
+    },
+    {
+      "path": "bradish_pilot/autodl_ff_sl_retry.py",
+      "bytes": 12700,
+      "sha256": "bbc3748df4592c18af691f4b4316255ade392519bedb8e850221a89eaf22bda0"
+    },
+    {
+      "path": "bradish_pilot/ball_control_experiment.py",
+      "bytes": 18062,
+      "sha256": "5f2e96f4044eebbec3d997160bc4baccaf329e7f883722c9841885a1c0c0b0c1"
+    },
+    {
+      "path": "bradish_pilot/cotracker_assist.py",
+      "bytes": 5971,
+      "sha256": "ea63af4fca8f7a9290031d3035f629e65a47846610b6714c17434f734efeb594"
+    },
+    {
+      "path": "bradish_pilot/data/annotations.json",
+      "bytes": 7280,
+      "sha256": "ee16e9ca81f75dc46409b2c1233b8f9fe722f628005cf4d8d23b81775fc6cc7e"
+    },
+    {
+      "path": "bradish_pilot/data/manifest.json",
+      "bytes": 190622,
+      "sha256": "dcfe941b5e2895686f48eb88cd2aefd71f5c658aa8b7a46089e19212f2682aaa"
+    },
+    {
+      "path": "bradish_pilot/data/selection.json",
+      "bytes": 338,
+      "sha256": "fa3a83a81304915dd2ed015438f1b4aed81fe7ecd85722caa15141b15841e26e"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/appearance_transfer/sprites/000.png",
+      "bytes": 885,
+      "sha256": "c08cef252da28a5333d61d003ee802c32afb45d8ebb7d6238274256c39a6d57c"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/appearance_transfer/sprites/001.png",
+      "bytes": 910,
+      "sha256": "7f7f81710e3d733bf08414ec6bfb5dd7f5a5e7b3a1738ef387faa1eb3b43d312"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/appearance_transfer/sprites/002.png",
+      "bytes": 858,
+      "sha256": "9b05424a6e9f13a0089fed635595d99be334d4fffe9fc9930921cb844b97607b"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/appearance_transfer/sprites/003.png",
+      "bytes": 868,
+      "sha256": "d790cd8034e6a0a56dd22ead0431b80e4c37a07ab11f6c0332f948ed1b814665"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/appearance_transfer/sprites/004.png",
+      "bytes": 775,
+      "sha256": "dfdacdbb6c9b114ac2f68ebbc6d55cb222bb79d441c2be295d202e2c4e74bca0"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/dataset.json",
+      "bytes": 267347,
+      "sha256": "7e92d0bf8b48f0074a5b334a90521300c7635e05c81d393413cf0ec5cdad244f"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_ff_sl/samples.json",
+      "bytes": 159966,
+      "sha256": "5026230913cd158e485d09d8efc7e2bf1417814308161bb8ff70e63bdc2edea5"
+    },
+    {
+      "path": "bradish_pilot/data/tracknet_labels.json",
+      "bytes": 230993,
+      "sha256": "df9b8af38c3a3fe80d27cb350c7c3138c37ecd3da747ab7e829f2e45a0a636c1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/align_stage2.py",
+      "bytes": 32260,
+      "sha256": "656dee8adbbb08f54ee853ccaa16cd096cce8cf365c7cdbd9d8cc9e5408416ea"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/alignment.json",
+      "bytes": 13172,
+      "sha256": "f4d62fe58d335e4b89432acced5f898aa6a2e5b6a2d230ef2b8336ee82575978"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/alignment_report.md",
+      "bytes": 5426,
+      "sha256": "cdff68207bf007707d139e2c411b88c28271440d068e1ec0d9d5f34df592dad9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/background_registration.jpg",
+      "bytes": 745157,
+      "sha256": "49db89862411cd1a1dab16028ef94ba256c08a4b702ec98dff784084110a30e0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/camera.json",
+      "bytes": 6855,
+      "sha256": "386f5d9f99e7081ea559fb6473ab9e541cef9aa206d9ba5600076c211d76c7fe"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/parameter_sensitivity.json",
+      "bytes": 4285,
+      "sha256": "6c1191eb1b50aec4ab33eb4c15120fddac9ef3586db7a762e0ee2006f682bbac"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/parameter_sensitivity.png",
+      "bytes": 87400,
+      "sha256": "35b754bc9fc007ce47ded376ddeb2f464f816beb4c04fb39d76749a7d6f1b7e9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/reference_trajectory_views.png",
+      "bytes": 93463,
+      "sha256": "c0832b0a1a829f222d5386e61f1a80efe253efa77c717e4b2cbbcd910a67267a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/reprojection_error_curves.png",
+      "bytes": 156713,
+      "sha256": "38f9cad3401b9e75d01d6e69f8a888a0d152457163665244215d1da1652123a4"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/reprojection_errors.csv",
+      "bytes": 8892,
+      "sha256": "2efb2a689f293b7099a44b1831b478d4b0d11da8220609825a73d8cb07c70fe8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/scene_correspondences.json",
+      "bytes": 2892,
+      "sha256": "a2d4f097e9a163564561bebcd9b0497154c80d88b2ec454226991742ec40ae3d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/scene_reprojection.png",
+      "bytes": 1598699,
+      "sha256": "b143940edbd6cced9743a5c040c513e627719621b4b4bd979498847bc06352cb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/stage2_validation.json",
+      "bytes": 546,
+      "sha256": "ba906de5e4bf1e4da8ed93a2c78c16b5e51a107d2632311fddd55cd131b0df76"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/alignment/trajectory_reference_3d.json",
+      "bytes": 98352,
+      "sha256": "6ad13f1fc4d08f3734047c2b628de8ba1f99abdbf34a955455ce969ef631765d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/config.json",
+      "bytes": 1714,
+      "sha256": "3a32b57480393b4432935060ef4cb1a252e79b824d0e31b44f87121b62ad11af"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage1/FF_02/ball_center_overlay.mp4",
+      "bytes": 468050,
+      "sha256": "62b1b61af1de5a46adc6f5a4f1d9f560f6314b2346864f145909742d232847cb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage1/FF_02/source_clip.mp4",
+      "bytes": 469073,
+      "sha256": "d6ca649f6de8e894ba4451b38e8e258c950d414046c8993398355d993da9e020"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage1/SL_02/ball_center_overlay.mp4",
+      "bytes": 439669,
+      "sha256": "164a4ccdb019ae77eb82cab17fba0252c4608d15fb4b264f06ef0abdc4d14eb9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage1/SL_02/source_clip.mp4",
+      "bytes": 436596,
+      "sha256": "5b9fb50511804f79a49ae2a22015110d1534456a3a5d7c71ba7e36f1d9fc7550"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage1/index.html",
+      "bytes": 1446,
+      "sha256": "d0e49cc6369bf3837e4dc27847541682caf65024b160e71dd1f5d2489049519e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage2/FF_02/reprojection_overlay.mp4",
+      "bytes": 469787,
+      "sha256": "555857e4c91f5e8a2d33aa3d1f6fa258cccf55acc737be2e2897ba23fc89abdd"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage2/SL_02/reprojection_overlay.mp4",
+      "bytes": 445932,
+      "sha256": "8db81da1960c5b9875299f53b578af1a6a13f2bfe14fcce858af644006a81045"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage2/index.html",
+      "bytes": 769,
+      "sha256": "86df27c5e8e6ba696e98acacfd3a06d89e275ec397585b26ff29ddbd4230d457"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/FF_03/prediction_overlay.mp4",
+      "bytes": 464848,
+      "sha256": "667120279f95b83dfc6ee8f5e9f552a158e8b9e481cf47d2aafedea05a01b35e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/FF_09/prediction_overlay.mp4",
+      "bytes": 484617,
+      "sha256": "f446a6a75348c0ee41ecc4568ef7811166a5a20c66cc4d8418cb3dbb01e1776f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/FF_10/prediction_overlay.mp4",
+      "bytes": 453617,
+      "sha256": "6e16a0c1c88e0a3b0191e201313cdde4f820b8f8b7c0d65e70e554479b73b539"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/SL_03/prediction_overlay.mp4",
+      "bytes": 397535,
+      "sha256": "06a0bacdadf00975900726f2ac1f30cf1370a1ffe93eb3bb8ad509c01aa863fe"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/SL_08/prediction_overlay.mp4",
+      "bytes": 414379,
+      "sha256": "0915917674b24492567176079c552f02355c175b358b8c64cbac5099e88a62dc"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/SL_10/prediction_overlay.mp4",
+      "bytes": 535884,
+      "sha256": "5f9544ca19613b86009bbc492c8083d6b6eb6951a00eca443e83cf18b9e4fd7b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage3/index.html",
+      "bytes": 1775,
+      "sha256": "f2c5baf3121f7d7c93bd66656a1fb695285e81975b9244327150db264f719706"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_base/normal_speed.mp4",
+      "bytes": 279617,
+      "sha256": "5235680f9f540d173c988d885b02c43dfbfbdaa7d25d14a2bcc1a920471cb902"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_base/slow_5x.mp4",
+      "bytes": 435731,
+      "sha256": "8df9d7b18570cce9d3b7dc726497cd86c608671553bab878e127b34acad33250"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_rightward/normal_speed.mp4",
+      "bytes": 279477,
+      "sha256": "01324e84c27a6c0ecb3c8e54134558cb067f207baa4f07e176ddbb6ad16a0a8f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_rightward/slow_5x.mp4",
+      "bytes": 436130,
+      "sha256": "54941b7ea38776f5b1f9eabacaea10d66f63b35e898c78d5afa04830d387de2c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_rightward_comparison_slow_5x.mp4",
+      "bytes": 336090,
+      "sha256": "f02935e3bc1e285c910309dd89dea1299d21a3bb7c86e5a7107b18f8d4e8c862"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_slower/normal_speed.mp4",
+      "bytes": 279366,
+      "sha256": "13b1d13d21be7946206edda81766a698dd5895bcb0fe0a41cce17645843d008e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_slower/slow_5x.mp4",
+      "bytes": 436166,
+      "sha256": "1750e8329bac70293d468542d69b6d5bce77f001f5ee7cdca8d5257a64269571"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_slower_comparison_slow_5x.mp4",
+      "bytes": 335332,
+      "sha256": "cc241562cfc01a26bacaecee95d89aeb73285af4863ac16a85eea04ee0d180b7"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_upward/normal_speed.mp4",
+      "bytes": 279391,
+      "sha256": "27dee7b357faa6858c65d8ab21542bcd930853e511069fd0a8cec3c9dd9348cb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_upward/slow_5x.mp4",
+      "bytes": 435813,
+      "sha256": "5ba118f98fbe27d9745298461ee8055a27999734499ab700e5514f4aea3d2f06"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/ff_upward_comparison_slow_5x.mp4",
+      "bytes": 336016,
+      "sha256": "e6328f823882c6deaaa3f7cb512c5eee21b44d007e65c02eda963f6a4128811e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/index.html",
+      "bytes": 1295,
+      "sha256": "0e97aaa23e2ae9330a277df5341ae4c45389a132dc8b3ece69264afd7640d906"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/sl_variant/normal_speed.mp4",
+      "bytes": 280111,
+      "sha256": "9f402622a6fe16ab92d438334d5cd6310b0d804b89714e94c73e9a5fa7412a65"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/sl_variant/slow_5x.mp4",
+      "bytes": 435762,
+      "sha256": "6c01c94d8576bd3708b719f97eb4872ba92ce0aecd9dc738c8e1d42d72021c42"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage4/sl_variant_comparison_slow_5x.mp4",
+      "bytes": 336948,
+      "sha256": "69fb820859770d4936a85796a705e72acdfd8174c434a4235298e1fbb827406c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/composite_comparison_normal.mp4",
+      "bytes": 195296,
+      "sha256": "028485bef62fe3e036e9ec7cf7a12e11673fb0bb6bdf428f3911eda8e35711a9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/composite_comparison_slow_5x.mp4",
+      "bytes": 362438,
+      "sha256": "36d19dfef417680d5414498ac22ee7f95fdcb74cb1496f0ad94ac2105f8e6781"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base/composite_normal.mp4",
+      "bytes": 279629,
+      "sha256": "3d7b0c25a128ddd411bdcfaef7739115a197d8e5d232e5f038d3c6ea32853ec5"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base/composite_slow_5x.mp4",
+      "bytes": 435787,
+      "sha256": "dba813ff96e5c33534f6aaf4a090901456f08dc1638379b5b650c5c5329f411a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base/raw_normal.mp4",
+      "bytes": 63189,
+      "sha256": "dd9d610644da78276a747fbe565712c8ea590880c1c6235651e952b81d7857da"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base/raw_slow_5x.mp4",
+      "bytes": 118125,
+      "sha256": "1392edfaed48134a09a6640e0604f51d1381c91a0a49f65a98af4ba3dc3d85c6"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base_ball_patches.jpg",
+      "bytes": 185226,
+      "sha256": "b9f70bb169aaabd7504fbde100c328a73a718daa8ec6d1dceb20bc2a22e3891a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base_composite_frames_contact.jpg",
+      "bytes": 585557,
+      "sha256": "a3b7c2973c67987f1be7943e6db80f94d20386dab177b99bb2f643e7392b4553"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/ff_base_raw_frames_contact.jpg",
+      "bytes": 531922,
+      "sha256": "2258adc7f2f59f28a858c9d5ba41c9b1d53d728c78a3df421ee3b3eb626853fa"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/index.html",
+      "bytes": 1326,
+      "sha256": "d014e19c7cdc84218bf78de7b92435eb65f788be80bf09facd9dbb4f54b876d0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/raw_comparison_normal.mp4",
+      "bytes": 115220,
+      "sha256": "cb2afbb5ba05a6406ea031ce6917a0170e0aa7253e92f22d600bc92c5e883688"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/raw_comparison_slow_5x.mp4",
+      "bytes": 223078,
+      "sha256": "925c7a46768b0eef2924964d0a51d173ea43f3b42c0aea311af027d15f466179"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/repair_all_0.jpg",
+      "bytes": 517041,
+      "sha256": "4501c73a13901858e254617c6845ba2500f82d52e6f92cff3ffa7382ad599151"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/repair_all_1.jpg",
+      "bytes": 514964,
+      "sha256": "f868dc7f9432866d00872b8c47cff522d936f8aee6fd7c92345e50aa918164f1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant/composite_normal.mp4",
+      "bytes": 279815,
+      "sha256": "6ae82233ec9d15a47e878937b8dd806edcd2eeead0811758c2989962e0c13260"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant/composite_slow_5x.mp4",
+      "bytes": 436508,
+      "sha256": "8e2047761944aec0bb05a741a8da10edc23ac3560fa6d12b51e4cc397c547706"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant/raw_normal.mp4",
+      "bytes": 63265,
+      "sha256": "d3841fb1866cbcb77aaceae2625a569a450ce3cce273c931e9b1c491575338b0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant/raw_slow_5x.mp4",
+      "bytes": 118905,
+      "sha256": "82794773d37ebe6f097a08e9f8e8a99c5c6bf58519f6a86e7933cac4d76fa884"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant_ball_patches.jpg",
+      "bytes": 156078,
+      "sha256": "4126a15c6bf0cbdc45fda18af9ec67b30900df473763e832d3b29cab2a8e7f90"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant_composite_frames_contact.jpg",
+      "bytes": 588735,
+      "sha256": "7defe0b7c7d199fdb53b37b812be226d636ae024fa74d45f075b9c6636d74f26"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/delivery/stage5/sl_variant_raw_frames_contact.jpg",
+      "bytes": 536185,
+      "sha256": "a1bf73970fea7019b8dda9030013a914eff3c97e25a8cdc4d285f597b10b79fa"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edit_stage4.py",
+      "bytes": 23395,
+      "sha256": "82b004f976feed0e75bc1dcd8ecb11ca3a3c4a8fd00848c04a6b347d52ada0de"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/edit_comparison.png",
+      "bytes": 174132,
+      "sha256": "0240e6311f93b47edcc117f9308eb9356412118f37657a309d5ce81872226f2d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/edit_config.json",
+      "bytes": 1444,
+      "sha256": "c371f7275f0449637bd50777c4cdf96f71cf7576fb5368eea85de7f574d2d819"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/ff_base_trajectory.json",
+      "bytes": 26774,
+      "sha256": "6c10ed172033da701fec4d44def516fd66862e96238c191b212ff8d5616c4441"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/ff_rightward_trajectory.json",
+      "bytes": 26929,
+      "sha256": "dd7edfa2dc576217ed25b71f7c3538c452a9ccfa78830a63375b23c196700c6e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/ff_slower_trajectory.json",
+      "bytes": 26917,
+      "sha256": "810adaf80be62defd944751a5efa61b618a1c961ba3aeec8c97c333fe1a68936"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/ff_upward_trajectory.json",
+      "bytes": 26847,
+      "sha256": "3bf52cc1215e892653e54068c0bbe1e3f8a05517e468bc616928a11a752ece4b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/sl_variant_trajectory.json",
+      "bytes": 26951,
+      "sha256": "f2a3102df108a322cdc4ff66296f8a80cdde924f120b68aae9ca0f914a7d4036"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/stage4_manifest.json",
+      "bytes": 163393,
+      "sha256": "657faca3b0ebf51b6dd24c594c9b43572c178a76a505bd0456f1aed9b2d52e16"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/edits/stage5_inputs.json",
+      "bytes": 10132,
+      "sha256": "23d869f8e334386e95557efdad8ee9cffcc114ff335be647381745f38dde7fa8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/evaluate_stage3.py",
+      "bytes": 26750,
+      "sha256": "c4c2dcbc1322b8ca03163722f08b7a3749cafa35f9ba7c3b6ba902e4a80d46b1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/evaluate_stage5.py",
+      "bytes": 7168,
+      "sha256": "1a7fcc1aca621957671d1a4ed1fb643f5ed746af86ae250aa4be337e738b9e57"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/export_stage1.py",
+      "bytes": 26351,
+      "sha256": "10eb12f8074d5b1af00d62d3be7444f867237ad211368528e14d93a0b47c5df3"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/job.json",
+      "bytes": 62478,
+      "sha256": "61f099fbe804c4463fd26226805df0b1e740f3a3000b013b933d0aac6728026f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/.ipynb_checkpoints/repair_audit-checkpoint.png",
+      "bytes": 1049478,
+      "sha256": "7074b7813f02d36896110cbfc7eb9f6d5cbcdb4ebd480307f9a305e711eab0ce"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/condition_audit.png",
+      "bytes": 1858962,
+      "sha256": "e305ed601a5b4f537a843196a6baadfa68f2f1a11c875f442bf3df5f0e285748"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/000.png",
+      "bytes": 243341,
+      "sha256": "0a78dad243ed5e463ea3cf80d57259b1c0c543efc278b3e0dfa35d7549de8ef8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/001.png",
+      "bytes": 238773,
+      "sha256": "6ac563bb4ed5546399bbfdd1e30a2d07fdfdd447b6b3bd1f168289bd56878bdc"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/002.png",
+      "bytes": 237599,
+      "sha256": "1800caf24b4b483fc2ba76994cab53a446d5b929b2a10a2cb05279c2ef162fab"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/003.png",
+      "bytes": 238323,
+      "sha256": "d96cc1a65c93891bf48d953b23f13619fc53fec30d8a867d71e7127314e1b8a8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/004.png",
+      "bytes": 234378,
+      "sha256": "b5ebf2c19ab0f1e9d122fc1fbaa31569d1c4d9882caf13d3b3fbfb182c62932c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/005.png",
+      "bytes": 232084,
+      "sha256": "87921c73f77f778de716c2e3fd0ebfafa3047f2d08df277ce4ee1f5735764ff9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/006.png",
+      "bytes": 232165,
+      "sha256": "30bb14eb45689c196b0eabed46d67fa1f8fd22bef7106d236420e50ed75e793b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/007.png",
+      "bytes": 228462,
+      "sha256": "caeea653249ca05de0e12e4f105e9d9bf0791efebd7efb2552a105413501bebf"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/008.png",
+      "bytes": 227569,
+      "sha256": "300941935fc5de7d79dd57debcbb405f37f74abf9f4dd923b5ceb97fdf51664a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/009.png",
+      "bytes": 228295,
+      "sha256": "59f4150a1b744278668bcda108022d5e4f0b5e0a844dbb20b09444c7bb26d416"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/010.png",
+      "bytes": 225022,
+      "sha256": "5d51d39a06336ddb66880cc493aabb09dddae48c94539112c7e92cc9613277c0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/011.png",
+      "bytes": 224798,
+      "sha256": "886ab8a86ebf2204258f018d7ffaea7f4ae6ada927ceb4ebb4bc6cab77f577ec"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/012.png",
+      "bytes": 225623,
+      "sha256": "c88fa4d304e1e4fa452bd1f41221d9bf38561ac36190d8d552e0a65a7ec700a0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/013.png",
+      "bytes": 222645,
+      "sha256": "58e7513d099c6cba2b1249a087c0dd1f31b74a47a32b7ff1021b1ad29ce74cec"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/014.png",
+      "bytes": 223417,
+      "sha256": "e3380a9fa862d416291303b9e06a63a669129aadc2819e9e2f8fc4433a756bb5"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/ff_base/015.png",
+      "bytes": 227067,
+      "sha256": "b83092e7612b365d0dcda23c7df65ee6fa12b90ac6a9ed3d4ca22b621af29a63"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/000.png",
+      "bytes": 243341,
+      "sha256": "0a78dad243ed5e463ea3cf80d57259b1c0c543efc278b3e0dfa35d7549de8ef8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/001.png",
+      "bytes": 239256,
+      "sha256": "aeb3991abfe0eba48e05ace67368dcce9edc62c5fbd64570132e097839ca6005"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/002.png",
+      "bytes": 238386,
+      "sha256": "a4bc5f6d7632336e51c5d53bd3efbff0a4cd917fc8ef8fb975b60c6a47687435"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/003.png",
+      "bytes": 239422,
+      "sha256": "4691fd0d0fdb438e44cd380e7b01c2d42bb69a49ba79dd437b0fe16a67c40bcd"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/004.png",
+      "bytes": 235650,
+      "sha256": "42866876f76a43b433a5da869a49707b9f94ac9d7c4b40c78a9402e3b437d544"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/005.png",
+      "bytes": 233382,
+      "sha256": "1eaa569bbb703019d11f3297c6b12e81399930199c8feec5fc49be95b5687813"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/006.png",
+      "bytes": 233187,
+      "sha256": "0597598dca07eec008e2548a4b5b409a17c2f5a935580dc0f71608b6f4cda8cd"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/007.png",
+      "bytes": 229006,
+      "sha256": "f16fefc9bdf1a90427847e289ee101577bbc3f05549af55412bdb44f504dd233"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/008.png",
+      "bytes": 227896,
+      "sha256": "a686ce43999d5277004b783a98ec4a5485e82408e1b8e529c0025d55a302f752"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/009.png",
+      "bytes": 228759,
+      "sha256": "b7d74a0184c9b98e9ae0e62968554e5fe426292ad048cc766063a4fcf66c3b29"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/010.png",
+      "bytes": 225466,
+      "sha256": "d4ced20445c0536ee78113d02620b330ef75fc636c4365cd795ef4dd3af03ead"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/011.png",
+      "bytes": 225529,
+      "sha256": "e24a2ed386763fe40b831e94e36a6cf02abd175d630cec8bea6f1a720a0287d3"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/012.png",
+      "bytes": 226058,
+      "sha256": "164c6db888b5c86b1a1f77cb9ad64a558ee34925051664926b96a1685690de3b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/013.png",
+      "bytes": 222807,
+      "sha256": "056cb12b789f3eefbe648524d50a2bc7b7fe5128d2383ce9c220d538bf2fdaf8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/014.png",
+      "bytes": 223402,
+      "sha256": "9ae80cfdf2297c58c14156132f75f87be25ec435997333ab117b0101faf09789"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions/sl_variant/015.png",
+      "bytes": 227215,
+      "sha256": "1f6adfacd0578ed97696caae3e1fac11abc4573c0eb3905ddbba335683e13290"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/conditions_manifest.json",
+      "bytes": 369,
+      "sha256": "fb79e224785bcd310c440b78c46750b605a2bb85251ccf14f623859b6ad62269"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/download_manifest.json",
+      "bytes": 31294,
+      "sha256": "f81eb6e6857da9b990f7b00af732067cc8ea925666df40b8a1ef56a4ac7488aa"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/environment.json",
+      "bytes": 67825,
+      "sha256": "0547a608e47ab8f952713546f0ea852fcfb6456182d0574960ed2150ff70da37"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0000.png",
+      "bytes": 1703091,
+      "sha256": "85d26885bbb236f9621f0de2234800f962e078e4e8ca19de36d97566a4a3a4e1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0001.png",
+      "bytes": 1692198,
+      "sha256": "74ff99010a8a3c2b7d7a47197e237c5f9a221e23877852b707b29b0b7b309e79"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0002.png",
+      "bytes": 1691055,
+      "sha256": "781c8388c14e293636d8b0ab8c76bd7100a6f8a8520d30f23968696d7d827576"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0003.png",
+      "bytes": 1694819,
+      "sha256": "eee67e3707f7a8a4f8177bdc9e249ee9193d3bcf5bac38a1370e3a1b6af3abb1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0004.png",
+      "bytes": 1682676,
+      "sha256": "53692483d172ee433df43e8142f68cc939f699c4078e2666c04d0507b3802b29"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0005.png",
+      "bytes": 1677218,
+      "sha256": "50408c3e30ad5c1c17f7e089cc525f83654cc03a843df53df9e774a1958a664b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0006.png",
+      "bytes": 1680762,
+      "sha256": "ccdf89e735daa338e2373c29ae7e9dd063d0f5c6b7a365032f38da1a1e39f6c6"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0007.png",
+      "bytes": 1670222,
+      "sha256": "c53ebc6a2e78d417b3939455a636387db505e232a012ac783b2f44b29af730bb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0008.png",
+      "bytes": 1667047,
+      "sha256": "5602b4bbd291c9a8183e7421221a3a875a627a2979dd0e96cd3a4dab031185f0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0009.png",
+      "bytes": 1670752,
+      "sha256": "fd77b077c3b7f799c825d5c149b054843062e7b36db955830147c8c2d7580a21"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0010.png",
+      "bytes": 1665232,
+      "sha256": "9e4fce2d12e03022e4e3ae8e83206461dc90ff7fd0cb2f98c23967bd820ee7d7"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0011.png",
+      "bytes": 1664177,
+      "sha256": "763f15fcf64fed56ef5c78b8ef8f0cc6443b1ea91fcd96128001e56599ab5b1c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0012.png",
+      "bytes": 1668025,
+      "sha256": "4e6bb7d532000d37ce294523caed5536b874be5c8cb2d37a6dfe1a7255f84765"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0013.png",
+      "bytes": 1661809,
+      "sha256": "8a7cc0773fc1b358220b3078ac2734a10ba0470e3c7875b2f22d901323b3e7e0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0014.png",
+      "bytes": 1659614,
+      "sha256": "7d62d54b0aa9745bd0724a0387a92e4d8fbd949364e319f2bcfa48150de42010"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_frames/0015.png",
+      "bytes": 1666028,
+      "sha256": "cdd6f274d9585f32ed7072702bab943603e05801bb54eff72a3a93db1e80cfca"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_normal.mp4",
+      "bytes": 279629,
+      "sha256": "3d7b0c25a128ddd411bdcfaef7739115a197d8e5d232e5f038d3c6ea32853ec5"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/composite_slow_5x.mp4",
+      "bytes": 435787,
+      "sha256": "dba813ff96e5c33534f6aaf4a090901456f08dc1638379b5b650c5c5329f411a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0000.png",
+      "bytes": 191994,
+      "sha256": "1d40d7cba7ae6fe33cc015e9579538737ad54908e8ca89f2051e496e44cebf9e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0001.png",
+      "bytes": 187879,
+      "sha256": "b6d0e1d5fdc9abe6ac912300dd6df1029421d8bd427dce15c2202befe02758ae"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0002.png",
+      "bytes": 189124,
+      "sha256": "c596d8516f997b44941e7d185c1456a91acab0fbdfe28398eb3777c316f75be2"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0003.png",
+      "bytes": 188758,
+      "sha256": "61b216d44494b02118d092024efff6e7e17eef237a00fa83ea6db4402c43eef0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0004.png",
+      "bytes": 186265,
+      "sha256": "844e3560e5d100cc820cba77969bcd7442ba6700bc1fb39236ff12d3f62c17f2"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0005.png",
+      "bytes": 185014,
+      "sha256": "bb4c35a5e8bd723252ddb34a0c72d9fad033c5acdd3fc39237724ff7e9a90ec8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0006.png",
+      "bytes": 185386,
+      "sha256": "27810193c9b46360188e48d81b085046d0d5616f0f5e688bca477c15488005de"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0007.png",
+      "bytes": 183367,
+      "sha256": "277f70e355c2024771a750e00dcd50c9771e361beddf71ad167bd9277881e367"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0008.png",
+      "bytes": 181885,
+      "sha256": "fa166b974f3950fca66d238e3b38001b7c7dbcfbe0c0846131e1485fac1c5058"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0009.png",
+      "bytes": 182496,
+      "sha256": "5a153198bd630e429ccaede1346e623cbec1575c719609634d929709c36ad036"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0010.png",
+      "bytes": 179467,
+      "sha256": "6622c7cb2cd9e3fc45976a3cd2dc805e7431dc6b0afdcad0b56c9735eb6cc99d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0011.png",
+      "bytes": 179015,
+      "sha256": "1d034713d932b867310e472c5176a03e78794dbab276524515f9d4eb76cd6a73"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0012.png",
+      "bytes": 179264,
+      "sha256": "aa8ecb01781990aa68943fb0b926b9f886dda7659dcff930f5e831e046c73504"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0013.png",
+      "bytes": 176387,
+      "sha256": "8750f1b2b7e14efa4bcd9e7081fb624c59d0a0e7da87339be2ef9ff10bcbbdd7"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0014.png",
+      "bytes": 177546,
+      "sha256": "92561dcd340ed52af4151568425a5efe694b024bef791ec15f425e0f92ca1a69"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_frames/0015.png",
+      "bytes": 180537,
+      "sha256": "3e06586bc0f216ce48e863d21604a0e2e63d35232e02ab25e29b7795c7e3d24f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_normal.mp4",
+      "bytes": 63189,
+      "sha256": "dd9d610644da78276a747fbe565712c8ea590880c1c6235651e952b81d7857da"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/raw_slow_5x.mp4",
+      "bytes": 118125,
+      "sha256": "1392edfaed48134a09a6640e0604f51d1381c91a0a49f65a98af4ba3dc3d85c6"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/ff_base/run.json",
+      "bytes": 283,
+      "sha256": "98e9a138069d2a6c96164ef9566db7b72a5b87dec18ef1d6c81b4c9e0514b22a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/preflight.json",
+      "bytes": 231,
+      "sha256": "2622b3f7094c8d4beb6e72ff16bd4f1f9034a24ae70cbc14a453fe3cccb25aeb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/repair/context_frames/inpaint_out.mp4",
+      "bytes": 433371,
+      "sha256": "cbabc551716f054745642dac48f83905f8de2dc394135e8757de629b48f81a73"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/repair/context_frames/masked_in.mp4",
+      "bytes": 438689,
+      "sha256": "5de1ce69df0746db4a93e1247cc53592dac5a75a1a832c8ffd5c8970768f5b15"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/repair_audit.png",
+      "bytes": 1049478,
+      "sha256": "7074b7813f02d36896110cbfc7eb9f6d5cbcdb4ebd480307f9a305e711eab0ce"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/repair_run.json",
+      "bytes": 143,
+      "sha256": "0d9b2c332c9612207522aea027d5f6a79c9493fa1d5081c82b65297d57365ac3"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/requirements_resolved.txt",
+      "bytes": 3271,
+      "sha256": "f5f5619a5cd396cc34e22e2a972aeb2818faa3d44d5c85df49daa64893579e33"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0000.png",
+      "bytes": 1703085,
+      "sha256": "fc50ac30ccd9b99c261dda10319b5f8e17e991a10da489fac21fc589ddf59ec3"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0001.png",
+      "bytes": 1692314,
+      "sha256": "12a2495c3554353c86407a7a699425a3ff870f0448eed31135dda4a8ea70e7db"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0002.png",
+      "bytes": 1691284,
+      "sha256": "93f50009dbcffadb4d4010fb2d8aa46a8b3afcdefa8aadd7639ffe3d9f5c78be"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0003.png",
+      "bytes": 1695126,
+      "sha256": "1f7326ef5e28087d763350b46edcfcfbe10ed7be6bb058765f93205876752e9c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0004.png",
+      "bytes": 1683004,
+      "sha256": "7cb23020884c4d36f11c4481e76b7263813e416905b0c2f9c30b4d4816c4ce7e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0005.png",
+      "bytes": 1677558,
+      "sha256": "a543b3e3c98c2defc19574e1a7756b70bd16d830b1ddb7bfb7eba0a96623045f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0006.png",
+      "bytes": 1681117,
+      "sha256": "868623c529f5164675828190b371b4ea71bc2d37e81eb6240ecefed1452dea05"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0007.png",
+      "bytes": 1670448,
+      "sha256": "5533cc899a32aec01df678f8dff02a832787a8a9692712934e7c9f598ebf0c3a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0008.png",
+      "bytes": 1667295,
+      "sha256": "0fe6f261e9659c459179a136f844496ef253c7d270488f917edcddd14d8087b0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0009.png",
+      "bytes": 1671012,
+      "sha256": "9455652ced75104d5e6c3dadcdda6eff2f354f47727f9d1363ff64ef79bfbe1d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0010.png",
+      "bytes": 1665405,
+      "sha256": "f5b4840e49774231978d316a7201fb16b49e34833a4d6f35cf99a34cf4d4813e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0011.png",
+      "bytes": 1664354,
+      "sha256": "4589c609bccd0aef6ec2d82cd551bc707d860e61a94d6b063e1fb64b0469de38"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0012.png",
+      "bytes": 1668148,
+      "sha256": "be6aa8dd7cc22e2b1d6f78651b2b9581d02a630e72bf71a02b632b222abb50be"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0013.png",
+      "bytes": 1661889,
+      "sha256": "b790229531b6e1981c329665daed4d56d2712de7b0c42128ef4607d03a709b45"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0014.png",
+      "bytes": 1659662,
+      "sha256": "c1d5400df064a56684b091c905edb508084fc31f765d2a1a7dfe99cc9933cb42"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_frames/0015.png",
+      "bytes": 1666068,
+      "sha256": "197602e44700ac7ba1cc21e55c7abb08b044152ad79299afac92838e8f52e573"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_normal.mp4",
+      "bytes": 279815,
+      "sha256": "6ae82233ec9d15a47e878937b8dd806edcd2eeead0811758c2989962e0c13260"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/composite_slow_5x.mp4",
+      "bytes": 436508,
+      "sha256": "8e2047761944aec0bb05a741a8da10edc23ac3560fa6d12b51e4cc397c547706"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0000.png",
+      "bytes": 192105,
+      "sha256": "cb2425a55c3ee9fd41d218242660645ee126fcd312a5fb4ec6482f94e8fb4cb8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0001.png",
+      "bytes": 188615,
+      "sha256": "afc6be0d043c516544e8c9d2c7b797e70ea3128b86fcb048308dbde97f1ea7ba"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0002.png",
+      "bytes": 189276,
+      "sha256": "6c745159a1f897bb630e00606f8fe61fdc8554de6345a719dd2abddf94f713a1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0003.png",
+      "bytes": 189159,
+      "sha256": "01d2df488418aaf761c7cb21bc82eb10d1120a33267459536eb1c720168bb662"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0004.png",
+      "bytes": 186670,
+      "sha256": "2cc56c8de0376f1b61a76f7ecc0e965e2246c5f9ebb38e69c66d6acfe57081c6"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0005.png",
+      "bytes": 185852,
+      "sha256": "36d63547b42a45af95eb18b31bf8a4bb9b581e1046a4a5501143ab0abbc96a8c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0006.png",
+      "bytes": 185896,
+      "sha256": "f4635ab1c5ab34d7f49d50dcde8603322d747e728997605ab57b0581346bee67"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0007.png",
+      "bytes": 183844,
+      "sha256": "abe3a7dab923268397d61dbc3cbe308614630a1c91b64a35b7f9bd2e02422b9e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0008.png",
+      "bytes": 182921,
+      "sha256": "8a19b18136e60786ed1925909aeed75c8693943671a89b8254bf3a4758a75b7f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0009.png",
+      "bytes": 183164,
+      "sha256": "b3e94151c203b0ba748d9d75891a08b5637392d1e9835206662fadaef338a970"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0010.png",
+      "bytes": 180069,
+      "sha256": "62863635b012d8ac5424676673f02964e47e29ae3e4dc14f72729d316e6d07af"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0011.png",
+      "bytes": 179455,
+      "sha256": "ee1e456eaff71c45dbc5a692228b492c9da4fcee63df25cded435cea30a6fecd"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0012.png",
+      "bytes": 179300,
+      "sha256": "1bf4a26896ee9f80a01c1fe1c55ac32364d9fa14aed025f2a69aebe3ebe8fc64"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0013.png",
+      "bytes": 176479,
+      "sha256": "ea0dad729aa2a29eef7247ed4ca87c02cf37d2f72778c2ef0135f99078e33a9a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0014.png",
+      "bytes": 177468,
+      "sha256": "94b96731d4eb7c2fd89786c3d9b036effd14d5be33bb433662440cfe0d8c02a2"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_frames/0015.png",
+      "bytes": 180659,
+      "sha256": "547438b446f1552065f1db568c4b62d3887f3ee63aa5cd5e8a926760388da855"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_normal.mp4",
+      "bytes": 63265,
+      "sha256": "d3841fb1866cbcb77aaceae2625a569a450ce3cce273c931e9b1c491575338b0"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/raw_slow_5x.mp4",
+      "bytes": 118905,
+      "sha256": "82794773d37ebe6f097a08e9f8e8a99c5c6bf58519f6a86e7933cac4d76fa884"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/outputs/sl_variant/run.json",
+      "bytes": 282,
+      "sha256": "f57bb441db4ee838f70a980b80b383e0f4aaaf0a2d88588badc43659d921c612"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/run_stage5.py",
+      "bytes": 6024,
+      "sha256": "7e4152242525da62268b7fe68db1ab676051bde6b8a6326921c908137894ceae"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_results/stage5_media.py",
+      "bytes": 7100,
+      "sha256": "436228aff9c88589be226956e33492dfa605b0917b3ddd520340b87631b6a78e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/cloud_session.json",
+      "bytes": 511,
+      "sha256": "d5acdaa35f27a27e668d9b863413ca4a75b82914bf67c03eac1c38b1ca883596"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/generation/stage5_package_validation.json",
+      "bytes": 18183,
+      "sha256": "ff59ea47a68387472e31809a057db42b47e949709a0a96e5f884fa1bf333af90"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/observations/FF_02_observations_2d.json",
+      "bytes": 30778,
+      "sha256": "a04af545acb4a68814a461793f56ca5c3937fcedea40fd96ced2d4dd9bb91d72"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/observations/FF_02_video_timeline.json",
+      "bytes": 61642,
+      "sha256": "99d836b71f30034610c5023e4ac9db4130ae9ae46f9414c76f59c31ebb0bc44b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/observations/SL_02_observations_2d.json",
+      "bytes": 33081,
+      "sha256": "b426895ae236f0bb73f7190df9f9c001fb6b3210b12a03124376894d6f2b2a36"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/observations/SL_02_video_timeline.json",
+      "bytes": 58764,
+      "sha256": "f1841d20701b5ec1523213f9d9978e82bc1461f93531a63c59c9b5bbd7a30a05"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/observations/observations_2d.csv",
+      "bytes": 22427,
+      "sha256": "0d16bd4b5aade79614e58ddd9f899ccfd0f44f2d00de3a9b4d635cbddbfa96eb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/observations/observations_2d.json",
+      "bytes": 71393,
+      "sha256": "e04bdccf1dde940d9d9e8a415ef23f5679795f7a65354a3be24d16de030c8f0e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/ode_model.py",
+      "bytes": 2369,
+      "sha256": "23c5f3e44f977e2a60732bcd20480d49b7b594f13dd51e4ab2b652d35dd3f61c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_01_input.json",
+      "bytes": 1152,
+      "sha256": "cc0afad3756dd3c2fd609062a87c8a6d46b1eafab6c61ac21bf0195b6ff17c21"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_01_prediction.json",
+      "bytes": 32007,
+      "sha256": "1df71079633a11c23902532696c8f5090eea22ef4999b404c6b74703919336c2"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_02_input.json",
+      "bytes": 1154,
+      "sha256": "8f941c208ee28bd0631926b75fd2c6ca89bdfb5b918123142806a50f2b2d748b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_02_prediction.json",
+      "bytes": 31995,
+      "sha256": "9a50edec1d9218b7b9ed94f6cabd03a28c79d6a50e32a2d8b5c734507cbb5752"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_03_input.json",
+      "bytes": 1152,
+      "sha256": "f155ae669ef83de158cb4d5866c63aad49e2fcff11bbd3de1d3179d746d28f16"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_03_prediction.json",
+      "bytes": 32104,
+      "sha256": "0ee2f5b20515d792245a4a0df47a59e0d9aeb6ae671aec3b7985680ba9591c72"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_04_input.json",
+      "bytes": 1125,
+      "sha256": "eef44a4800b930f7a21f00ea9a88040cc3e863054b84e7a4f32b45a68755d41d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_04_prediction.json",
+      "bytes": 30568,
+      "sha256": "73060e167375569e9254e84d4db16c5de7f52b0d7dea2e555e9c412f83bbf8b1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_06_input.json",
+      "bytes": 1131,
+      "sha256": "faba94215f180e573f147fb314e314d070bf5a981ed01dfaec29fb89ac37e92a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_06_prediction.json",
+      "bytes": 30628,
+      "sha256": "c99b9b394f09d2cb490d6ae1ea56ef9ed85f6d74fe0f592bc53c04284fbd432c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_07_input.json",
+      "bytes": 1091,
+      "sha256": "ee2cdf2cfd0b5022003f8cba8ee645e4b48f9abb49c1a2194b16eff5d8ac53f6"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_07_prediction.json",
+      "bytes": 29010,
+      "sha256": "44765ee024df6169c128178eb2ea771a195fdd2143e859020c948426c6b45bed"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_08_input.json",
+      "bytes": 1152,
+      "sha256": "9fd27c1d29cb87148148ab5e2da07fb1881b7e8fbfcc24f06f9b80a061096785"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_08_prediction.json",
+      "bytes": 32083,
+      "sha256": "ec7893228f1f1d2fde2532a9a36c48c95bc8d1ef6e6f8aebd26ad54398acd5bd"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_09_input.json",
+      "bytes": 1124,
+      "sha256": "43ec32670e60c8648f2f0b4992fd84e4a72daf868eaacc8f8af57e7c90dbafa8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_09_prediction.json",
+      "bytes": 30500,
+      "sha256": "265fbc0381412bb0af82c35c89a6287ccabe59b28139daaccb74ef2886de4b1b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_10_input.json",
+      "bytes": 1150,
+      "sha256": "82ff4d58a5341f78908873fa600647ece89ee8958a02deb9d503856e37f3206f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/FF_10_prediction.json",
+      "bytes": 31943,
+      "sha256": "42f2bfd24803dcb1b2a40a117abec677e2c1b6a90f01517f97135d73fd389f5f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_01_input.json",
+      "bytes": 1169,
+      "sha256": "41abc33779b5c4d40d334064f09ec296409408cfdc636c701a08960abe876bd2"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_01_prediction.json",
+      "bytes": 33528,
+      "sha256": "3d0b8a3194c2b7ffce19879355b83a6b8f91ec98d851f2874a3456f6cc94ffeb"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_02_input.json",
+      "bytes": 1189,
+      "sha256": "e9955df6ace41448f912b3f3ae8e63fa944fc929e8f85f4bc9866e2d076896f3"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_02_prediction.json",
+      "bytes": 34887,
+      "sha256": "077b342a26d54c4027d9bf70893cf987af207f82ec79a8564a1d85517332bf57"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_03_input.json",
+      "bytes": 1162,
+      "sha256": "a325d511ba3e48022c81864a4efc4bc77290b19b542c86b82f83c289a5af71f9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_03_prediction.json",
+      "bytes": 33492,
+      "sha256": "eadc14e04e10a48d5125b956a884cb2ee6d99d44c38bf5936ae86402d9ee0c2b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_04_input.json",
+      "bytes": 1164,
+      "sha256": "2f6ccfa09bf98b65e956c02bc8e745c44ffe045d919b5409dbc2b33f21b2b8cf"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_04_prediction.json",
+      "bytes": 33470,
+      "sha256": "09ec9acf27c0ed537defb496ad4dd686d76131b1024d327a5c20adaaaf5925de"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_05_input.json",
+      "bytes": 1162,
+      "sha256": "25aaa5c2485b3085d094da8474bbfaa542d5059b20db8177debf4f3b0a8efb2e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_05_prediction.json",
+      "bytes": 33492,
+      "sha256": "e0817e5dd6033dabc4fba3f3ce99e779b8918fe457823c9d82515a37dec3c39a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_06_input.json",
+      "bytes": 1152,
+      "sha256": "0551ce9ab028fe476cae1a529da841196a979aad9eaea686952406d2127c1b35"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_06_prediction.json",
+      "bytes": 32016,
+      "sha256": "b5193e1d0a9106640f4dbc86b0aa423d94c3d7864184a209a5eb969251d74cfa"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_07_input.json",
+      "bytes": 1222,
+      "sha256": "757cba4058cb4468d0fdf8bccbd2c30243a931b6bef40947b7adee6c359b0190"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_07_prediction.json",
+      "bytes": 36554,
+      "sha256": "02823fb7e41f364ab30fcfbf367ed8d370a6c10b8341fcf9c7feb2cf56443e9e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_08_input.json",
+      "bytes": 1185,
+      "sha256": "d1c5a8a170a36c5b97191b797eea1ccb8419a34691de35aef163df88d95ec8e5"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_08_prediction.json",
+      "bytes": 34933,
+      "sha256": "e71e5736d6f46a63d4be14f7c9bfcaf9d7707a3baa113eb0a207ddcfc2f5ca7d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_09_input.json",
+      "bytes": 1178,
+      "sha256": "ac695d9613a9842e0cafe6566359fcac3bee814c1743d5d26c76c7f6ff6baff9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_09_prediction.json",
+      "bytes": 33540,
+      "sha256": "2ad367f1afd7dfff5c56a2787b178882c18da5c722866f9bfc98ca210c5751a6"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_10_input.json",
+      "bytes": 1184,
+      "sha256": "26e1a019a24e2b391b14aa71128adf4e4b51d4a4da65861973cef1812bfc94d2"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/SL_10_prediction.json",
+      "bytes": 34897,
+      "sha256": "8cf03862ef42063dcb434c80620d6f945e230f2028f1c6577d5a7007e385c981"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/errors.csv",
+      "bytes": 46738,
+      "sha256": "73cc125aa55de0e2b5d4e0bd8ab66170f5412b122a82daf74d136d847414924b"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/heldout_error_curves.png",
+      "bytes": 422726,
+      "sha256": "351986fcc815a774ce03e5287966ce8b5b974bf1aee1d5149904293c8953991f"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/metrics.json",
+      "bytes": 59153,
+      "sha256": "3ad88ef8fd748d3e9975e8107979fc775bb0430c01ce76fe17d0cc68acdd3301"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/test_trajectory_views.png",
+      "bytes": 161648,
+      "sha256": "caae048c14cb9890a2339d4c8cb95642b9202b2f05e3116e7bcc1c0a1cd72af9"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/predictions/trajectories.json",
+      "bytes": 515877,
+      "sha256": "d54832aa842130bb1397482e04f567943749cc278189c42b1907d464aecf4738"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/prepare_stage3.py",
+      "bytes": 15646,
+      "sha256": "e6f63b47e5dfccde6cf49a74476eb02530fa0f4aa999c4f0aad55228b912b8fc"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/prepare_stage5.py",
+      "bytes": 7390,
+      "sha256": "2230d8a6c8ef88d57ddc7eed39b575d8a05849e4f6e2e06cde1f29d4d19f3c91"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/release_metadata.json",
+      "bytes": 329,
+      "sha256": "2ebb8d884ee8010cf66154e7f9ac2edf186b751594ccb7311f83fd5f35bf2eaa"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/alignment_report.md",
+      "bytes": 5481,
+      "sha256": "cc0d7a808c277056bd7cd5b18ab4f14aaaa3a1450a206da650717db5406c1aad"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage1_frame_mapping_comparison.png",
+      "bytes": 685178,
+      "sha256": "902b3581f8027177c81195e35c19670a02ebe9de9767ea84d28e4be42a4c3095"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage1_report.md",
+      "bytes": 3717,
+      "sha256": "64fe8221c0d7859877e2c7d3758f511b95fd63ed3b424744fa87b06e2edd4d01"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage1_validation.json",
+      "bytes": 6097,
+      "sha256": "4900dc7cb5cd77723869bb237b0d3d0ed16e058222c5b44c702ace49290d6bf7"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage1_visual_review.md",
+      "bytes": 1066,
+      "sha256": "ea99a67261b723ac948e32475f0ac32b88bc762c3b2f09879fba431542c46eff"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage2_visual_review.md",
+      "bytes": 1159,
+      "sha256": "b49a071792e9bd7afd0345b67d9012c6a97c7341ddcd544c3d0246b6e7b3666d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_mapping_review_1.png",
+      "bytes": 2535960,
+      "sha256": "7b1623af02749de31f013b45c307236c24dc1c91594e7f4a3f50e84a90d053f4"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_mapping_review_2.png",
+      "bytes": 2521342,
+      "sha256": "eec56107c4162a9493f4c69feec66cb6d9e964bc81cdd203040b27af448cca18"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_mapping_review_3.png",
+      "bytes": 2763583,
+      "sha256": "4d1309e0c0447d340c6bcd745cd27e23ce21a01812dd3afee80d605f29e36207"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_mapping_review_4.png",
+      "bytes": 2383295,
+      "sha256": "8ba499400aca024fbdd8f84f55df6217c4074017d5497c1f692492fafc7ff17a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_report.md",
+      "bytes": 6138,
+      "sha256": "4df626e28334b1ddf9108a2872b04397a94e7cf472c9ea1e9c11a2e502cd2693"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_validation.json",
+      "bytes": 2751,
+      "sha256": "60147bb419a145779027d983a345ed4c3974c829ea904ead1ddd7c744d0e4574"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage3_visual_review.md",
+      "bytes": 2953,
+      "sha256": "83a17519a3921dbc7511b5076533e74f301d4aa449cb73eb356f5b6c96636aec"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_all_conditions_1.png",
+      "bytes": 837162,
+      "sha256": "b8346370fee44225bdc6a3b1cc6f2b15cc2b1599300d96f1052d0c103dc4dafd"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_all_conditions_2.png",
+      "bytes": 807699,
+      "sha256": "8180a35427052ae7f73fc1fd8d81a391a0bf3d57317b9e0306d34a2abe81188d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_background_audit.png",
+      "bytes": 2126805,
+      "sha256": "78bab98b7a07b698dbc32e9de61c0f2ce2080cee1474a33a61d48e70925994ff"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_cleanup_method_check.png",
+      "bytes": 1004606,
+      "sha256": "93345bf6281caf65403ebd8277dcd1d2a7dbc75d16371b47e720f57e17604d7e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_report.md",
+      "bytes": 3468,
+      "sha256": "0a7df7bedba6f9022357c25195986391f087dca3aa495f08df49d37d558324ca"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_validation.json",
+      "bytes": 4718,
+      "sha256": "bafe65af99b99ad8164f9620beca961a0b2d9b30ca794e41191f56d28bdc104d"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage4_visual_review.md",
+      "bytes": 1939,
+      "sha256": "ca5286ace7831ccd040f0d65f7682cfb95da994812320f488e497968d1c99cad"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage5_frame_review.json",
+      "bytes": 8855,
+      "sha256": "c4008b8a43babfe7fcb5a709398c1f04c90b091c49d6eb0aadbc2b505fbe3e4c"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage5_preparation_report.md",
+      "bytes": 1840,
+      "sha256": "ccfb37d6e4f0e6d9d3e96e6d7e6dd8321d96763bb94fbc2300137c8b221faf27"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage5_report.md",
+      "bytes": 4473,
+      "sha256": "d6e466edbcde6cc427a7d87b90cae899639c920fc299496a15633ccd7dfd05a1"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/reports/stage5_validation.json",
+      "bytes": 2785,
+      "sha256": "8c4f59c7f6955c6d2c03ace367226765bde305de9262355c16b084a6521a6248"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/requirements-local.txt",
+      "bytes": 125,
+      "sha256": "d4a248a0e3f043212bee4e4faef6cb25ff8a2c28e6dd36664919349d0e9b0190"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/run_stage5.py",
+      "bytes": 6024,
+      "sha256": "7e4152242525da62268b7fe68db1ab676051bde6b8a6326921c908137894ceae"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/stage2_geometry.py",
+      "bytes": 4275,
+      "sha256": "3b991cc303c87dd11145b4c0552fb28dec04273db3a4fd3d0772566be82ddb7a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/stage5_media.py",
+      "bytes": 7100,
+      "sha256": "436228aff9c88589be226956e33492dfa605b0917b3ddd520340b87631b6a78e"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/train_stage3.py",
+      "bytes": 8479,
+      "sha256": "29c73bf20006b67f8718a3eb812294dafcca45b32375b29ce070c7981aeb9190"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/camera_transfer.json",
+      "bytes": 66372,
+      "sha256": "fd6dc520af881e14ba4b5c176970ff4dd633808b797b319f482235080a660184"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/config.json",
+      "bytes": 2190,
+      "sha256": "7f7be8bcd67a816ebe8201df9a8b70cbfef409ae89fe515a28e45a5a6ee7cfcf"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/history.json",
+      "bytes": 55854,
+      "sha256": "a6c92dad42cc97727eb0e8a9ac0b7a38c32b56484d4296d729583f7bd1a4d0bf"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/model.pt",
+      "bytes": 17436,
+      "sha256": "053d02a0721f701473ea1f155336f8523522b718532528ba9c248b8555c2f907"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/normalization.json",
+      "bytes": 754,
+      "sha256": "254368bc6c37176866740a8a0dadd6800e5049833f17ee4bb686400458d2554a"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/observation_expansion_validation.json",
+      "bytes": 289,
+      "sha256": "7f7d6a73000900ee7f6cb06e09f0ecef200a0298084c4e02bfd035b416d649f8"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/prepared_data.json",
+      "bytes": 950262,
+      "sha256": "1ea4c96066242231445e110e273ed2965f5c4b3d1f2a52a15f6c103e2b29bbee"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/split.json",
+      "bytes": 298,
+      "sha256": "81fa6e29111527df90c375dfd304f3d4dfe671c72193f4d404d7f66ff69f4911"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/training_curves.png",
+      "bytes": 78626,
+      "sha256": "c42f7d08e37f657ef5d0099813752b572c6929a9312d4e5443f5a9ecb647a475"
+    },
+    {
+      "path": "bradish_pilot/experiments/neural_ode_ball/training/training_summary.json",
+      "bytes": 2757,
+      "sha256": "e7226a976553eec82053458c26ecf00b7fb86b9906e56bca3ffa5d206b81eca5"
+    },
+    {
+      "path": "bradish_pilot/generate_ff_sl_gpu.py",
+      "bytes": 8280,
+      "sha256": "41e43e4d1c9e4b797239937b4c97dd26413d54e32f5d8a26866fabb7ec4f7fdf"
+    },
+    {
+      "path": "bradish_pilot/infer_tracknet.py",
+      "bytes": 3070,
+      "sha256": "8773ea6300f1903989d90a247495bbe96d1f310f186a6b83ee14116dd98e3cd8"
+    },
+    {
+      "path": "bradish_pilot/launch_review_server.command",
+      "bytes": 600,
+      "sha256": "02eb822cfab57279833d99c72c133c3d8a468c0abd58d634c662b3b70706c342"
+    },
+    {
+      "path": "bradish_pilot/media_sources.json",
+      "bytes": 4322,
+      "sha256": "e90c9cfc480e979843bcd91da1b726ae45d1865caee0c8e3c18d22798219d257"
+    },
+    {
+      "path": "bradish_pilot/missing_media_sources.json",
+      "bytes": 1563,
+      "sha256": "1e4889d5c0acdf6e6add4003b026ae122fa43781272b4a05db48e1461eda41a8"
+    },
+    {
+      "path": "bradish_pilot/pipeline.py",
+      "bytes": 8869,
+      "sha256": "a88d82aaffedc38154cd8e0cc35393fbb3f501c86d5a1c6d96dd8dfb823336be"
+    },
+    {
+      "path": "bradish_pilot/preview_ff_to_sl.py",
+      "bytes": 10612,
+      "sha256": "1e30fbb854eccfe67457c8d200d43dc94f6489a2499cf967ec964bed5dfe7465"
+    },
+    {
+      "path": "bradish_pilot/report_tracknet.py",
+      "bytes": 5023,
+      "sha256": "9cf736d356e9500b75eacd53afb1b49ae2cbdb0b9a32b5b9981bf5306cd1f228"
+    },
+    {
+      "path": "bradish_pilot/requirements-framework.txt",
+      "bytes": 63,
+      "sha256": "c7dd8c9bdafdada67302539f51ee5c7aec138ab0bb1e939d5aec94a28ae024e1"
+    },
+    {
+      "path": "bradish_pilot/requirements.txt",
+      "bytes": 81,
+      "sha256": "c7a39efae183cc4da1cae205ad062f93d44bd78b9918408e3b9934b5baea6613"
+    },
+    {
+      "path": "bradish_pilot/review.html",
+      "bytes": 4293,
+      "sha256": "46809c33a6434cc838ca128d105d64833eb420a88ee2d636ede2abb58d623476"
+    },
+    {
+      "path": "bradish_pilot/review_server.py",
+      "bytes": 7301,
+      "sha256": "36bfc296a570003844b4b95daa8edc96fa7d25e7922f4ba64c260583ace4567a"
+    },
+    {
+      "path": "bradish_pilot/test_trajectory_compositor.py",
+      "bytes": 11341,
+      "sha256": "9edb279020ec3f9b3f36edb2da8bf4f4267610bef7fafaf5b411e442b1c13f78"
+    },
+    {
+      "path": "bradish_pilot/tests/test_autodl_controls.py",
+      "bytes": 2134,
+      "sha256": "f2ae321a72d763468fbe270ebcdb80647353fb8f7c0d271fb4e3f13590a7be9b"
+    },
+    {
+      "path": "bradish_pilot/tests/test_ball_control.py",
+      "bytes": 3515,
+      "sha256": "f4f97420d8999b664b767a30a22a98c9f401b6643758d3959f403a512f06307b"
+    },
+    {
+      "path": "bradish_pilot/tracknet_label.html",
+      "bytes": 14780,
+      "sha256": "a12772aadfd8e9069bb6890a6a681dc2a4be9ab06b00bb74cb33e482e6a1c8f4"
+    },
+    {
+      "path": "bradish_pilot/tracknet_preflight.py",
+      "bytes": 8571,
+      "sha256": "2803c55200079176dabac8a7a351a2adee81a8096652093d26de749b0014c1ac"
+    },
+    {
+      "path": "bradish_pilot/train_tracknet.py",
+      "bytes": 10906,
+      "sha256": "6bf590038438e9fb75e5a28f7eecf1d4a59559dc3f828619d0ba22903b18ec7d"
+    },
+    {
+      "path": "bradish_pilot/transfer_ball_appearance.py",
+      "bytes": 11626,
+      "sha256": "1c3f41bbf12c06ad59088b0583049caa9d401ca09b30be57fe73bc426ad085f0"
+    },
+    {
+      "path": "bradish_pilot/verify_appearance_transfer.py",
+      "bytes": 1901,
+      "sha256": "c69b2ed5427c4ca7b1d1c4b623b03e7aad20f5b2ed2b85e2972454a64987c9e9"
+    },
+    {
+      "path": "configs/generative_models.json",
+      "bytes": 630,
+      "sha256": "28b2f722d2259c337eac28300c834d5863e25cec68d56ef23693631e80da10a2"
+    },
+    {
+      "path": "docs/ARTIFACTS.md",
+      "bytes": 2349,
+      "sha256": "41f237f25ee7792de57021fc60481984cc6ce746658009ca98d254edd6ada4fe"
+    },
+    {
+      "path": "docs/NEXT_PHASE.md",
+      "bytes": 2559,
+      "sha256": "6e0128485c367d903fcb138a4ee69eea631d34b44e0ec4b4ea285757a8d373cc"
+    },
+    {
+      "path": "docs/PROJECT_SUMMARY.md",
+      "bytes": 2824,
+      "sha256": "85b62b160ac0a74834e85cdc70749b20979a32f1f91af083e9292ff0fa33c684"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 3562,
+      "sha256": "2ca4bef2df87a7a8acd707934db9019cb6eeac715ce27f8555233f436ed4d936"
+    },
+    {
+      "path": "docs/SMALL_3D_GENERATIVE_PLAN.zh.md",
+      "bytes": 38986,
+      "sha256": "6117efa0357e4718649cfa34bb301aaebf71b1ae7e290d586ec81f35a8cb7279"
+    },
+    {
+      "path": "history/appearance_transfer/NEXT_RESEARCH.md",
+      "bytes": 1906,
+      "sha256": "fd5de09450e35bba7f529f5b3171937e38ee4339bc77f677743c45e9deeff5b6"
+    },
+    {
+      "path": "history/appearance_transfer/README.md",
+      "bytes": 2259,
+      "sha256": "1148c59de1f5e502a2fded6951b89d20e4debf1a714dacaa4647fda2d1a3c0e1"
+    },
+    {
+      "path": "history/appearance_transfer/SMALL_3D_GENERATIVE_PLAN.md",
+      "bytes": 20056,
+      "sha256": "eee38f65ebe26326af4bea957b0f8b9a77b5ddf6e70e3d14d5b9c88d9ce25f6d"
+    },
+    {
+      "path": "history/existing_trajectory_sample/README.md",
+      "bytes": 4034,
+      "sha256": "88c706d521324ebd254609c17ca4e86f577734c1803c110b24cfaa9a878a0968"
+    },
+    {
+      "path": "history/existing_trajectory_sample/extract_nathan_sample.py",
+      "bytes": 5230,
+      "sha256": "95adac79efbcd73861fa684a86a3a3cb18aa6944bf28aa94b56ddb130cb92b34"
+    },
+    {
+      "path": "history/experiment_plan_overleaf/README.md",
+      "bytes": 1539,
+      "sha256": "0009280a6119e346204debd9105aad4c5db6b7b1d1671547ae01a311936b107b"
+    },
+    {
+      "path": "history/experiment_plan_overleaf/main.tex",
+      "bytes": 41616,
+      "sha256": "1665af2a7c43b7958aab628b0fa86101ee511f8d047eadce1b5b9a7074f7f327"
+    },
+    {
+      "path": "history/pilot_pipeline/README.md",
+      "bytes": 12160,
+      "sha256": "f7745acc91bfe1980e8328a30ef9f6522ffef5817dd974a7e772d255a8fcfb84"
+    },
+    {
+      "path": "history/pilot_pipeline/RUN_REPORT.md",
+      "bytes": 4578,
+      "sha256": "7c7477d48cefe1d7a792b23e6ed12a620465ebc2505ecf458da1070a751bb74c"
+    },
+    {
+      "path": "history/pilot_pipeline/broadcast_projection.py",
+      "bytes": 14546,
+      "sha256": "8d67bf529084d3be150e0bdd9c5b8d46b2782d93bc4d34c7cf544e69d5b965b3"
+    },
+    {
+      "path": "history/pilot_pipeline/centerfield_view.py",
+      "bytes": 11571,
+      "sha256": "15e4aaad6beaf8786782d4cbfebcbd9493b6e0ee2cb3116542ad98832cd4d6fd"
+    },
+    {
+      "path": "history/pilot_pipeline/package_run.py",
+      "bytes": 1131,
+      "sha256": "52300c1f91fe1a555e1aca485da0f65550f340c852330765451273db810c19df"
+    },
+    {
+      "path": "history/pilot_pipeline/pipeline.py",
+      "bytes": 25497,
+      "sha256": "9fff038a37efba6e0c14570566ee4803c57c4bacff3233f4553dd193a73af71f"
+    },
+    {
+      "path": "history/pilot_pipeline/run_gpu.py",
+      "bytes": 13425,
+      "sha256": "ea777e2fedf0cb141e1442294e149b32b69a611d93b6f18c12156b52656b27d1"
+    },
+    {
+      "path": "history/pilot_pipeline/tests/test_broadcast.py",
+      "bytes": 2872,
+      "sha256": "947a600b3721bb61be8648861e9e48ac4af15c23f53eb728cc38a1bfff372a42"
+    },
+    {
+      "path": "history/pilot_pipeline/tests/test_pipeline.py",
+      "bytes": 6232,
+      "sha256": "a6e7a134aec88b0627cbf09933b84355eabac57647f9d994896f872a393c39d7"
+    },
+    {
+      "path": "history/pilot_pipeline/verify_lossless.py",
+      "bytes": 1630,
+      "sha256": "8f53686c3733629fcb71a4e6fd1ae8024f0d136e4c701a76523913413aab7f7e"
+    },
+    {
+      "path": "history/pitch_generation_initial_proposal/README.md",
+      "bytes": 585,
+      "sha256": "b2051faac3c8dbb0ce16a80f38908ad5bae8d40a421cc3f83c70fb01f2a848c9"
+    },
+    {
+      "path": "history/pitch_generation_initial_proposal/main.tex",
+      "bytes": 23324,
+      "sha256": "547bbaaec80ffb480df53a018c0ae141bcd34a95b9dc2554664e3bb7b127c5a0"
+    },
+    {
+      "path": "history/planning/\u4e09\u7ef4\u7403\u8def\u4e0e13\u533a\u9009\u62e9\u5668_\u5b9e\u8df5\u6b65\u9aa4.md",
+      "bytes": 26634,
+      "sha256": "80218cbfd6ce4ad81aa122b21a157216828427d92ac606bd31a9235a41d2071f"
+    },
+    {
+      "path": "history/planning/\u9762\u5411Chan\u7ec4\u5c55\u793a_\u68d2\u7403\u7269\u7406\u7ea6\u675f\u89c6\u9891\u751f\u6210\u6700\u901f\u65b9\u6848.md",
+      "bytes": 24539,
+      "sha256": "90727e3f4eacfd287875518b8acfc6290cc3328423f7e8aa55dcfbf7ee123809"
+    },
+    {
+      "path": "history/quick_data_audit/check_sources.py",
+      "bytes": 2586,
+      "sha256": "2ae9b604c9b682190ac5fb6df95473043588d463f17419e46b24d51ac3bbb134"
+    },
+    {
+      "path": "history/quick_data_audit/match_candidates.py",
+      "bytes": 2202,
+      "sha256": "3e373c297d4ec05a7e4c03b022a4222dc7350a85f8ed4302c9adb9fa0ac9e905"
+    },
+    {
+      "path": "history/quick_data_audit/mlb_clip_check/MLB\u5207\u7247\u68c0\u6d4b.md",
+      "bytes": 3645,
+      "sha256": "0a2eda8408947396ef279f7e3670cbc3e339d145563612e07ba128cc4c170df0"
+    },
+    {
+      "path": "history/quick_data_audit/right_pitcher_pilot/verify_bradish.py",
+      "bytes": 3752,
+      "sha256": "b9ebb5eed1520d053bb08557e65f80ed1ec61250c82c2f4a336e0697e5bd784e"
+    },
+    {
+      "path": "history/quick_data_audit/right_pitcher_pilot/\u7b5b\u9009\u7ed3\u679c\u4e0e\u65f6\u95f4\u6807\u6ce8\u8bc4\u4f30.md",
+      "bytes": 5903,
+      "sha256": "1bdb80b80d19dfedd14d4271be751ca380f99a9c4317d465cd8b2ac59e3bf1be"
+    },
+    {
+      "path": "history/quick_data_audit/screen_2m.py",
+      "bytes": 3024,
+      "sha256": "645a70728f1c331cd8ae2d133b902690aa07c174c3aa0556a23bc472cfa7f044"
+    },
+    {
+      "path": "history/quick_data_audit/\u5feb\u901f\u68c0\u6d4b\u7ed3\u679c.md",
+      "bytes": 4125,
+      "sha256": "08f9afd20eaf9c2ada1cc68727b9e586ca005ebb9e5c768fcdda18016b8e291a"
+    },
+    {
+      "path": "history/runpod_pilot/STATUS.md",
+      "bytes": 3107,
+      "sha256": "9b7d0df4658fc57b2e8e6bf79ad4f79bad5b1e350e78c6b096cb0e7d8ec16ccf"
+    },
+    {
+      "path": "history/runpod_pilot/generation_pair/TASK.md",
+      "bytes": 1385,
+      "sha256": "9bb35a5f379219d86fede16bc0bb21fe9ec3a5e5d434f876851e5cc06249b5e0"
+    },
+    {
+      "path": "history/runpod_pilot/small_model_test/CLOUD_REPORT.md",
+      "bytes": 2913,
+      "sha256": "912ccc42bcd478d8d1b684d8127a6269588f644f96ac1df479d2bd740d5c92b1"
+    },
+    {
+      "path": "history/runpod_pilot/small_model_test/README.md",
+      "bytes": 1962,
+      "sha256": "599684879565d909bda8759bb1806c06016ab2b332e34bab858bea626c2c81d6"
+    },
+    {
+      "path": "history/runpod_pilot/small_model_test/run_sparsectrl.py",
+      "bytes": 6183,
+      "sha256": "65ffedb39fed3fe8a9bd40adb9d8edba337eee8fdf8f55f04f9a17029e389eb9"
+    },
+    {
+      "path": "history/runpod_pilot/transfer_probe.py",
+      "bytes": 1494,
+      "sha256": "c21af66014f5d0a7acd7dd83c87fabb528a9f7dcfa4714ba2054c9dd4fb9e074"
+    },
+    {
+      "path": "history/tracknet/AUTODL_EXPERIMENT.md",
+      "bytes": 11710,
+      "sha256": "10cdcfb20ea45c9e17c6c5e82aa6a12c02d1088f7c82e5126a24565ab1230e6b"
+    },
+    {
+      "path": "history/tracknet/AUTODL_RETRY2.md",
+      "bytes": 10935,
+      "sha256": "e91fb6f98d56e237b23efe9f81246a5d7858a20c5e09e5e94ad5d2bd5c26da1e"
+    },
+    {
+      "path": "history/tracknet/FRAMEWORK_RUN.md",
+      "bytes": 4081,
+      "sha256": "b43506172938053fe9db250026532e7ec28125c317e544ae6ca490b51166f5b2"
+    },
+    {
+      "path": "history/tracknet/GPU_RUN.md",
+      "bytes": 3176,
+      "sha256": "c44dffd0ab5454fbda94d6225be6083506b40dec754f9734e6604c6878982d11"
+    },
+    {
+      "path": "history/tracknet/README.md",
+      "bytes": 6135,
+      "sha256": "41a12a0bb83f21d30b0a1ae522be602ba2a29756cc5e00ec517efcb158921e6d"
+    },
+    {
+      "path": "history/tracknet/RUN_REPORT.md",
+      "bytes": 2831,
+      "sha256": "e130b649c4b431db4e9586aca468baf9c7542f0f7b61111de04193187346def5"
+    },
+    {
+      "path": "overleaf_report/README.md",
+      "bytes": 1400,
+      "sha256": "c3eb2ef334bd8ecf3add2eec7f5c4cae49423915b4794e69f98693de9869cf7f"
+    },
+    {
+      "path": "overleaf_report/figure_provenance.json",
+      "bytes": 5220,
+      "sha256": "0a422bf2aff2319f9f82cb9204474742d480e9cd338e32419e8141f89a1ccc2b"
+    },
+    {
+      "path": "overleaf_report/figures/background_repair.jpg",
+      "bytes": 252146,
+      "sha256": "aefc29a3898062b89cbbbec2792a73f75c7c2a1f989a5d2f74d823879cd118b3"
+    },
+    {
+      "path": "overleaf_report/figures/broadcast_scene.jpg",
+      "bytes": 362852,
+      "sha256": "a64e8f21053a54697b3e3bd44ff93146581a056f05ed9dca81a423451c3d4e30"
+    },
+    {
+      "path": "overleaf_report/figures/camera_ambiguity.jpg",
+      "bytes": 143229,
+      "sha256": "8ef8f31325b0cf51a3653e987afaa66a3ff36dafbb429ada879bdec1aac03c4d"
+    },
+    {
+      "path": "overleaf_report/figures/camera_overlay.jpg",
+      "bytes": 347091,
+      "sha256": "91571e6d136db8fd90dae45553c286c93a81fe571031c3b6c9369f2e13670a5f"
+    },
+    {
+      "path": "overleaf_report/figures/code_compositing.png",
+      "bytes": 61320,
+      "sha256": "bff837e3c958345862453c70ae7eb2f4750412b364b92c445e128ec964d83c92"
+    },
+    {
+      "path": "overleaf_report/figures/code_generation.png",
+      "bytes": 161243,
+      "sha256": "5ef29ddd5076cf8d982770220b457bd68939cee4696e6ba1f0e1c30aedeeac20"
+    },
+    {
+      "path": "overleaf_report/figures/code_ode.png",
+      "bytes": 105167,
+      "sha256": "838bd6e62cf9733b5fa419d16d05e973fd3e16354406d1392d3acd326271108f"
+    },
+    {
+      "path": "overleaf_report/figures/code_timestamp_solver.png",
+      "bytes": 51473,
+      "sha256": "76689535bddfb86b7f146420c619b04b351f6355c65f123e4b44aa6a22e3e527"
+    },
+    {
+      "path": "overleaf_report/figures/experiment_overview.png",
+      "bytes": 638186,
+      "sha256": "781e2e521bfa2876f3bb35ed512e4f5213fd54ffb31f346fc9a1627a0be96855"
+    },
+    {
+      "path": "overleaf_report/figures/ff_base_all_generated.jpg",
+      "bytes": 533648,
+      "sha256": "7ecf643a6f4634d4093a7ad28d08dbba8d1e8fe11d793662f792cb3307852ad8"
+    },
+    {
+      "path": "overleaf_report/figures/ff_condition_vs_generated.jpg",
+      "bytes": 173662,
+      "sha256": "50691507563153f976c27770534f0434b7d0079b6cb51c0116941dd1a274a102"
+    },
+    {
+      "path": "overleaf_report/figures/heldout_errors.jpg",
+      "bytes": 195659,
+      "sha256": "e64f56d9cfe5713f31eee7a3510b15877b4cc39e6008018f793040bac125f5a0"
+    },
+    {
+      "path": "overleaf_report/figures/heldout_ff03.jpg",
+      "bytes": 266629,
+      "sha256": "8df0a726f04aec07c94627a27c14da76d4d7abbbaae82935792b0a9c041bb2da"
+    },
+    {
+      "path": "overleaf_report/figures/initial_state_edits.jpg",
+      "bytes": 113399,
+      "sha256": "5d6465610e9b5daed3d1cfb6bd68a68141adfe809ab21a5a89ca5a03947520b6"
+    },
+    {
+      "path": "overleaf_report/figures/sl_condition_vs_generated.jpg",
+      "bytes": 146422,
+      "sha256": "0a2dd56f5cb207d43666f3badc0b4d76cbc8c195d370e3464c22060a4f352652"
+    },
+    {
+      "path": "overleaf_report/figures/sl_variant_all_generated.jpg",
+      "bytes": 537898,
+      "sha256": "e98f07b5b834976a18467b2c2973ce495e28416f9fbff59e153bfb07b3e1475d"
+    },
+    {
+      "path": "overleaf_report/figures/training_curves.jpg",
+      "bytes": 93446,
+      "sha256": "3b71b3306cef2365a94f1c415bb90143e27ee35e7d74425a7f4a6b72dc98ee7d"
+    },
+    {
+      "path": "overleaf_report/main.tex",
+      "bytes": 34052,
+      "sha256": "00faf1de6674fedac55744daf9bbd525aeb81378462a0063e8cdde74f1eb66cd"
+    },
+    {
+      "path": "requirements-generation.txt",
+      "bytes": 239,
+      "sha256": "331f9dd13dfa2c5e32cc0dfd14fa94781d0d1ec16ed07d94c5ef3e1cbe3aff98"
+    },
+    {
+      "path": "requirements-local.txt",
+      "bytes": 159,
+      "sha256": "32f25a87aa2393a1fe6c975f4e4451a778eca085b97cdfa6ce55175cd1490137"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 264,
+      "sha256": "b044c447f043fda680d1ab759ac20b8ee83a41115cff5214d88609071fa12fa4"
+    },
+    {
+      "path": "results/index.html",
+      "bytes": 13695,
+      "sha256": "fe29072beab94240fbeda0df3568c4da4dd863ac6da0db00f871543f914bc6b0"
+    },
+    {
+      "path": "tools/predict_from_state.py",
+      "bytes": 2045,
+      "sha256": "c9f46941b913e6d75d9cbecb7fed0601b06e4312563f35ae666d4bc3ee4e019c"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 520,
+      "sha256": "4f881673b629d82dab68707e73088aed85064c2298fa62ef46cf1318d75f3435"
+    }
+  ]
+}

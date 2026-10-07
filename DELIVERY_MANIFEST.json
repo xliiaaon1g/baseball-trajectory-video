@@ -1,0 +1,17 @@
+[
+  {
+    "file": "phase1_github.zip",
+    "bytes": 111556116,
+    "sha256": "0c3242a66892bcc3eb117b46db4e37b4b7b7f70a4b1ab4129d0138701be9a672"
+  },
+  {
+    "file": "phase1_overleaf_report.zip",
+    "bytes": 3997319,
+    "sha256": "7cc565cae286ad345a661d32141019810f77f8fc7457e2a28eaf9620ab846e92"
+  },
+  {
+    "file": "phase1_supplementary_originals.tar.gz",
+    "bytes": 3351011951,
+    "sha256": "558ef9b6c0ca3a090613d39e152315c7a1d64ac701ab9da099c1d81201ee8859"
+  }
+]

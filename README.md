@@ -1,50 +1,68 @@
-# Baseball Pitch Trajectory Modeling and Controlled Video Generation: A Pilot Implementation
+# Baseball Trajectory Modeling and Controlled Video Generation
 
-**Phase I — completed implementation stages 1–5.** A personal project connecting reviewed 2D observations, Statcast-derived 3D reference states, learned continuous-state evolution, an explicit effective camera, editable initial conditions, and frozen video generation.
+<p align="center"><strong>Four-seam fastball (FF) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Slider (SL)</strong></p>
 
-![Actual broadcast scene, trajectory condition and FF/SL neural outputs](experiment_overview.png)
+![Slow-motion FF and SL comparison](assets/ff_sl_slow_motion.gif)
 
-## Project package and report
+[Download the FF video](assets/ff_fastball_slow_motion.mp4) · [Download the SL video](assets/sl_slider_slow_motion.mp4)
 
-- **[Download the complete Phase I project package](../../releases/download/v1.0-phase1/phase1_github.zip)** — code, README, consolidated documents, small ODE checkpoint, stage results, preview videos, exact raw generated frames, and reproduction tools. Unzip `baseball-trajectory-phase1/` and read its README.
-- **[Read the informal English report (PDF)](Informal-report.pdf)** — supplied compiled report covering purpose, experiment details, implementation, limitations, real experiment figures and next-phase plans.
-- **[Download the editable Overleaf report](../../releases/download/v1.0-phase1/phase1_overleaf_report.zip)** — upload to Overleaf and select `main.tex`.
-- **[Release page](../../releases/tag/v1.0-phase1)** — package sizes and SHA256 checksums.
-- **[License and asset provenance](LICENSE_NOTICE.md)** — separate project, upstream model/software, Statcast and broadcast rights.
+This project connects reviewed baseball video observations with Statcast-derived 3D reference states, a compact continuous-time trajectory model, fixed-camera projection, and conditional video synthesis. It supports reproducible FF/SL trajectory rollouts and controlled visual comparisons from editable initial states.
 
-The large ZIP is a Release asset rather than a source blob. Repository-root `PROJECT_MANIFEST.json` describes the contents of the unpacked project; those paths belong to the ZIP, not this landing repository. The local originals archive (raw broadcasts, historical workflow records and repeated frame sequences) is deliberately excluded from this upload.
+## Model architecture
 
-## Completed work
+![Physics-guided baseball trajectory and video-generation architecture](assets/model_architecture.png)
 
-1. Reused reviewed ball-center labels and corrected decoded-frame/time matching.
-2. Constructed SI reference states from Statcast fits and estimated an effective camera/time mapping.
-3. Trained a 1,443-parameter Neural ODE on 13 pitches, selected on 2, and evaluated on 4 held-out pitches.
-4. Edited visible-flight initial velocities and FF/SL conditions while holding the learned model and camera fixed.
-5. Repaired one shared scene with ProPainter, ran frozen AnimateDiff/SparseCtrl RGB generation for two 16-frame cases, preserved raw outputs, and inspected composites separately.
+The motion module is a 1,443-parameter BallODE. It receives a 6D state and a two-value FF/SL encoding, predicts non-gravity acceleration with an `8 → 32 → 32 → 3` Tanh network, and advances the state with RK4 at the exact video timestamps. A fixed camera maps the 3D rollout to screen-space controls used by the frozen video-generation stack.
 
-| Held-out check | Result | Interpretation |
-|---|---:|---|
-| Position RMSE | 2.48 cm | Against Statcast-derived reference, not independent 3D ground truth |
-| Velocity RMSE | 0.244 m/s | Against the same reference |
-| Projected center error | median 1.28 px; P90 3.66 px | Includes camera/time alignment error |
-| Test samples | 70 future states; 69 reviewed centers | Seed excluded; missing observations not fabricated |
-| Video pilot | FF/SL, 16 frames each | Dense RGB conditioning; fixed local scene |
+## Data sources
 
-SL has an identifiable ball in 16/16 inspected frames. FF has 12 clear frames and 4 uncertain late frames where the ball blends with helmet highlights. Generated-ball center P90 was not measured. Dense conditions may dominate appearance; actual spin, correct physical occlusion and arbitrary-camera generalization are not established.
+- MLB broadcast clips provide the reviewed video frames and 2D ball centers. Broadcast imagery remains subject to the rights of its original owners.
+- Baseball Savant / Statcast records provide pitch metadata and fitted 3D reference states in SI units.
+- The current learning set contains 13 training pitches, 2 validation pitches, and 4 held-out pitches across four-seam fastballs and sliders.
+- Large model weights and full raw broadcast archives are not redistributed.
 
-## Reproduction
+## Getting started
 
-After downloading and unpacking the project ZIP, run from its root with compatible Python/Torch dependencies:
+Create a Python environment and install the local motion-model dependencies:
 
-```sh
-python tools/predict_from_state.py --output /tmp/ff03_rollout.json
-python tools/verify_release.py
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-local.txt
 ```
 
-The saved-state CPU demo needs no raw video or cloud account. It reproduced the recorded trajectory with maximum state difference 0.0. Full alignment and media rebuilding require the separately retained original videos. See `docs/REPRODUCING.md` inside the project package.
+Run the saved-state CPU example:
+
+```bash
+python code/tools/predict_from_state.py --output ff03_rollout.json
+```
+
+The command uses the included small BallODE checkpoint and example input. It does not require raw video or a cloud account. Generation-specific dependencies are listed in `requirements-generation.txt`; exact upstream model identifiers are recorded in `configs/generative_models.json`.
+
+### Error checks
+
+| Held-out check | Result | Scope |
+|---|---:|---|
+| Position RMSE | 2.48 cm | Statcast-derived reference states |
+| Velocity RMSE | 0.244 m/s | Same reference-state evaluation |
+| Projected center error | median 1.28 px; P90 3.66 px | Includes camera and time-alignment error |
+| Saved-state reproduction | maximum difference 0.0 | Included CPU rollout example |
+
+These checks measure agreement with the constructed reference and reviewed centers; they are not independent multi-view 3D ground truth.
+
+## References
+
+- K. S. Yoon et al., [TrackNet: A Deep Learning Network for Tracking High-speed and Tiny Objects in Sports Applications](https://arxiv.org/abs/1907.03698).
+- Y.-C. Huang et al., [TrackNetV3](https://github.com/qaz812345/TrackNetV3).
+- R. T. Q. Chen et al., [Neural Ordinary Differential Equations](https://arxiv.org/abs/1806.07366).
+- G. Zhou et al., [ProPainter](https://github.com/sczhou/ProPainter).
+- [AnimateDiff](https://github.com/guoyww/AnimateDiff) and [SparseCtrl](https://github.com/guoyww/AnimateDiff/tree/main/animatediff/models/sparsectrl).
+- MLB, [Baseball Savant](https://baseballsavant.mlb.com/).
+
+## License
+
+No blanket MIT, Apache, or other new open-source license is assigned to the repository. See [LICENSE_NOTICE.md](LICENSE_NOTICE.md) for component-level terms and provenance.
 
 ## Copyright and reuse
 
-This repository is private. No blanket MIT/Apache or other new open-source license has been assigned. Project availability does not grant rights to third-party broadcast imagery, extracted sprites, Statcast records, upstream code or downloaded model weights. The report's example images are broadcast-derived and retain the same third-party provenance.
-
-ProPainter's recorded revision uses S-Lab License 1.0 with non-commercial conditions. Other upstream model/software licenses must be checked separately. Upstream large model weights are not redistributed. See [the detailed notice](LICENSE_NOTICE.md).
+Copyright © 2026. All project-specific rights are reserved unless a file states otherwise. Repository access does not grant rights to MLB broadcast imagery, extracted sprites, Statcast records, upstream software, or downloaded model weights. ProPainter uses the S-Lab License 1.0 with non-commercial conditions, and every other upstream dependency remains governed by its own license. Review the original licenses before reuse or redistribution.

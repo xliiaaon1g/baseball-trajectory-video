@@ -1,0 +1,6 @@
+# Stage 1/2/3 versions used in the existing bradish_pilot/.venv.
+numpy==1.26.4
+matplotlib==3.9.4
+Pillow==11.3.0
+torch==2.2.2
+opencv-python-headless==4.10.0.84

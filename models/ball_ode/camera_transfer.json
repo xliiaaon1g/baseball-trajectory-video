@@ -1,0 +1,2910 @@
+{
+  "FF_01": {
+    "camera": {
+      "sample_id": "FF_01",
+      "K": [
+        [
+          22689.4395690903,
+          0.0,
+          642.5243179961788
+        ],
+        [
+          0.0,
+          22689.4395690903,
+          368.39809202631164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.999332226497656,
+          -0.036536509980051965,
+          -0.00042955990838312326
+        ],
+        [
+          -0.0024990395632470373,
+          0.08007196240122263,
+          -0.9967859527694388
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04306379656282714,
+        0.39966425430650837,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_01_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.011990837642091,
+          4.6026123545429606e-05,
+          -5.166387499235883
+        ],
+        [
+          -4.6026123545429606e-05,
+          1.011990837642091,
+          4.110847194227988
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 915,
+      "inliers": 804,
+      "median_inlier_error_px": 0.6929615704883011,
+      "similarity": [
+        [
+          1.011990837642091,
+          4.6026123545429606e-05,
+          -5.166387499235883
+        ],
+        [
+          -4.6026123545429606e-05,
+          1.011990837642091,
+          4.110847194227988
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1515,
+      "inliers": 1301,
+      "median_inlier_error_px": 0.43689867027403484,
+      "similarity": [
+        [
+          1.0002824291378143,
+          1.1224360027295812e-05,
+          -1.9127084801345715
+        ],
+        [
+          -1.1224360027295812e-05,
+          1.0002824291378143,
+          -0.03159865173105078
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 1.7548735793429973
+    },
+    "video_time_origin_s": 3.0432525974496114,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9333198049336104,
+        3.1733198049336107
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.942449710022319
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_02": {
+    "camera": {
+      "sample_id": "FF_02",
+      "K": [
+        [
+          22420.597797594164,
+          0.0,
+          640.0
+        ],
+        [
+          0.0,
+          22420.597797594164,
+          360.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993321118058505,
+          -0.036540151676846155,
+          -0.00038422531432735107
+        ],
+        [
+          -0.002544489960766133,
+          0.0800703006097662,
+          -0.9967859712752286
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043045619479878415,
+        0.3996662124678236,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_02_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 2430,
+      "inliers": 2430,
+      "median_inlier_error_px": 0.0,
+      "similarity": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1703,
+      "inliers": 1624,
+      "median_inlier_error_px": 0.01222769866590838,
+      "similarity": [
+        [
+          0.9999720048137468,
+          3.483433279047503e-05,
+          0.004901162022509959
+        ],
+        [
+          -3.483433279047503e-05,
+          0.9999720048137468,
+          0.023971133190293842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.014665263227975641
+    },
+    "video_time_origin_s": 3.1156639707024123,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        3.006738738762906,
+        3.246738738762906
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 0.8524255637215565
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_03": {
+    "camera": {
+      "sample_id": "FF_03",
+      "K": [
+        [
+          22722.952718813922,
+          0.0,
+          655.2528531597244
+        ],
+        [
+          0.0,
+          22722.952718813922,
+          366.93896759368346
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993328612803762,
+          -0.03651501606670944,
+          -0.0006971132074748716
+        ],
+        [
+          -0.002230802698006065,
+          0.08008176650120301,
+          -0.9967858015608815
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04317107129852147,
+        0.39965268089645034,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_03_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0134855370266875,
+          0.0003181298677557819,
+          6.507582710252328
+        ],
+        [
+          -0.0003181298677557819,
+          1.0134855370266875,
+          2.2877773794396434
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 156,
+      "inliers": 118,
+      "median_inlier_error_px": 0.5754998414401434,
+      "similarity": [
+        [
+          1.0134855370266875,
+          0.0003181298677557819,
+          6.507582710252328
+        ],
+        [
+          -0.0003181298677557819,
+          1.0134855370266875,
+          2.2877773794396434
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1453,
+      "inliers": 1329,
+      "median_inlier_error_px": 0.14483825688022162,
+      "similarity": [
+        [
+          1.0000016333248538,
+          -2.7925442905497272e-05,
+          -0.007506323253469661
+        ],
+        [
+          2.7925442905497272e-05,
+          1.0000016333248538,
+          -0.15497844667293637
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.13987282447881116
+    },
+    "video_time_origin_s": 2.7501179397640163,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.638798221360554,
+        2.878798221360554
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.0499756643575306
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_04": {
+    "camera": {
+      "sample_id": "FF_04",
+      "K": [
+        [
+          22737.827794746012,
+          0.0,
+          651.0053856918986
+        ],
+        [
+          0.0,
+          22737.827794746012,
+          363.9939876598901
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993325082811056,
+          -0.03652726780581046,
+          -0.0005446092510853814
+        ],
+        [
+          -0.002383696309329713,
+          0.08007617892324691,
+          -0.9967858965499846
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04310992564886873,
+        0.3996592812075443,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_04_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0141490296415858,
+          0.00016317767872941645,
+          1.8912627569410903
+        ],
+        [
+          -0.00016317767872941645,
+          1.0141490296415858,
+          -0.9952292966939992
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 179,
+      "inliers": 149,
+      "median_inlier_error_px": 0.6159940666589351,
+      "similarity": [
+        [
+          1.0141490296415858,
+          0.00016317767872941645,
+          1.8912627569410903
+        ],
+        [
+          -0.00016317767872941645,
+          1.0141490296415858,
+          -0.9952292966939992
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1816,
+      "inliers": 1756,
+      "median_inlier_error_px": 0.027154672283180616,
+      "similarity": [
+        [
+          1.0000044452292232,
+          -3.2456892556440286e-05,
+          -0.00566700005287614
+        ],
+        [
+          3.2456892556440286e-05,
+          1.0000044452292232,
+          0.00940664860823565
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.039149590788036495
+    },
+    "video_time_origin_s": 2.710994406556293,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.6137838302657967,
+        2.853783830265797
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 0.8142214526652073
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_06": {
+    "camera": {
+      "sample_id": "FF_06",
+      "K": [
+        [
+          22912.346982507283,
+          0.0,
+          648.9621635013173
+        ],
+        [
+          0.0,
+          22912.346982507283,
+          365.22803901627066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.999332964665062,
+          -0.03651126535794998,
+          -0.0007437981573586558
+        ],
+        [
+          -0.0021839984521230004,
+          0.08008347661201161,
+          -0.9967857678179871
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04318978917999398,
+        0.3996506585198749,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_06_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0219328538242411,
+          0.000368644184089391,
+          -5.207574852469263
+        ],
+        [
+          -0.000368644184089391,
+          1.0219328538242411,
+          -2.431856082638937
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 147,
+      "inliers": 115,
+      "median_inlier_error_px": 0.6262946760172723,
+      "similarity": [
+        [
+          1.0219328538242411,
+          0.000368644184089391,
+          -5.207574852469263
+        ],
+        [
+          -0.000368644184089391,
+          1.0219328538242411,
+          -2.431856082638937
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1173,
+      "inliers": 1015,
+      "median_inlier_error_px": 0.27398106543214273,
+      "similarity": [
+        [
+          0.9999036511271766,
+          -2.5189818050563323e-05,
+          -0.14093137520683646
+        ],
+        [
+          2.5189818050563323e-05,
+          0.9999036511271766,
+          -0.1338627732778078
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.27542103368284854
+    },
+    "video_time_origin_s": 3.1095362156039377,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9949881180104616,
+        3.234988118010462
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.3711749833533435
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_07": {
+    "camera": {
+      "sample_id": "FF_07",
+      "K": [
+        [
+          22925.804520533595,
+          0.0,
+          648.9435473834733
+        ],
+        [
+          0.0,
+          22925.804520533595,
+          364.89694781658307
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993320893858859,
+          -0.03654085597291706,
+          -0.00037545759586061816
+        ],
+        [
+          -0.002553280074943703,
+          0.08006997919989602,
+          -0.9967859746163099
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043042104018599384,
+        0.3996665910811586,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_07_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0225331512840734,
+          -8.99419036469641e-06,
+          -5.474431529802333
+        ],
+        [
+          8.99419036469641e-06,
+          1.0225331512840734,
+          -3.2207429275167945
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 176,
+      "inliers": 127,
+      "median_inlier_error_px": 0.6020502408253134,
+      "similarity": [
+        [
+          1.0225331512840734,
+          -8.99419036469641e-06,
+          -5.474431529802333
+        ],
+        [
+          8.99419036469641e-06,
+          1.0225331512840734,
+          -3.2207429275167945
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1337,
+      "inliers": 1223,
+      "median_inlier_error_px": 0.10241716781712686,
+      "similarity": [
+        [
+          0.999965660580615,
+          2.753804035516686e-05,
+          -0.0033458829807545836
+        ],
+        [
+          -2.753804035516686e-05,
+          0.999965660580615,
+          -0.06558537542985884
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.10293601874825407
+    },
+    "video_time_origin_s": 3.070532586026059,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        181,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        191
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.960989166576135,
+        3.2009891665761354
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.3314152703621798
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_08": {
+    "camera": {
+      "sample_id": "FF_08",
+      "K": [
+        [
+          22602.0993853609,
+          0.0,
+          656.6120314779022
+        ],
+        [
+          0.0,
+          22602.0993853609,
+          367.62612064162477
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993330724321695,
+          -0.03650726803026939,
+          -0.0007935516658197149
+        ],
+        [
+          -0.0021341177993729975,
+          0.08008529893352039,
+          -0.9967857294503905
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043209737266938816,
+        0.3996485022492942,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_08_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.008095220462257,
+          0.000413970519138505,
+          11.282060995167711
+        ],
+        [
+          -0.000413970519138505,
+          1.008095220462257,
+          4.976782407460837
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 128,
+      "inliers": 99,
+      "median_inlier_error_px": 0.6764993550226062,
+      "similarity": [
+        [
+          1.008095220462257,
+          0.000413970519138505,
+          11.282060995167711
+        ],
+        [
+          -0.000413970519138505,
+          1.008095220462257,
+          4.976782407460837
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1087,
+      "inliers": 898,
+      "median_inlier_error_px": 0.6270892103185879,
+      "similarity": [
+        [
+          1.0000385394977538,
+          6.53392242303001e-05,
+          -0.1155052318435621
+        ],
+        [
+          -6.53392242303001e-05,
+          1.0000385394977538,
+          -0.60506286715492
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.6376365120007407
+    },
+    "video_time_origin_s": 3.1156118225747367,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        3.0087868870857806,
+        3.248786887085781
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.3889963938572931
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_09": {
+    "camera": {
+      "sample_id": "FF_09",
+      "K": [
+        [
+          22619.765888454927,
+          0.0,
+          658.1920447154683
+        ],
+        [
+          0.0,
+          22619.765888454927,
+          366.755136095887
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993323679784981,
+          -0.03653192420941708,
+          -0.00048664570762744315
+        ],
+        [
+          -0.002441807934439721,
+          0.0800740547110152,
+          -0.9967859265339516
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043086685211298235,
+        0.3996617873931463,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_09_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0088832587450391,
+          0.00010366339989125204,
+          12.46944029468247
+        ],
+        [
+          -0.00010366339989125204,
+          1.0088832587450391,
+          3.6235075236032546
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 147,
+      "inliers": 115,
+      "median_inlier_error_px": 0.7367303928942326,
+      "similarity": [
+        [
+          1.0088832587450391,
+          0.00010366339989125204,
+          12.46944029468247
+        ],
+        [
+          -0.00010366339989125204,
+          1.0088832587450391,
+          3.6235075236032546
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1225,
+      "inliers": 1098,
+      "median_inlier_error_px": 0.15860377016094074,
+      "similarity": [
+        [
+          1.000008198371224,
+          -3.67517522858959e-05,
+          -0.08278121160539546
+        ],
+        [
+          3.67517522858959e-05,
+          1.000008198371224,
+          -0.14455085574668178
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.1503448216222966
+    },
+    "video_time_origin_s": 3.072221856887337,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9740288878983674,
+        3.2140288878983676
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.0653197645107626
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "FF_10": {
+    "camera": {
+      "sample_id": "FF_10",
+      "K": [
+        [
+          22169.323900964024,
+          0.0,
+          637.8246710977971
+        ],
+        [
+          0.0,
+          22169.323900964024,
+          363.3042007874022
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.999332972922335,
+          -0.036510962315300065,
+          -0.0007475700757651967
+        ],
+        [
+          -0.0021802168948954707,
+          0.08008361477303574,
+          -0.9967857649962578
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043191301490279325,
+        0.3996504950833388,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "FF_10_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          0.9887926552297255,
+          0.000360431116496675,
+          4.867616548833992
+        ],
+        [
+          -0.000360431116496675,
+          0.9887926552297255,
+          7.569520819258868
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 120,
+      "inliers": 92,
+      "median_inlier_error_px": 0.6255091858825587,
+      "similarity": [
+        [
+          0.9887926552297255,
+          0.000360431116496675,
+          4.867616548833992
+        ],
+        [
+          -0.000360431116496675,
+          0.9887926552297255,
+          7.569520819258868
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1227,
+      "inliers": 1047,
+      "median_inlier_error_px": 0.36906722460068137,
+      "similarity": [
+        [
+          0.999943961519597,
+          -4.993497256550599e-05,
+          -0.07709079167588435
+        ],
+        [
+          4.993497256550599e-05,
+          0.999943961519597,
+          -0.3550342469382082
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.3756786259300372
+    },
+    "video_time_origin_s": 3.0529006750458834,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.955146091457693,
+        3.1951460914576932
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.414045934252372
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_01": {
+    "camera": {
+      "sample_id": "SL_01",
+      "K": [
+        [
+          22672.136000205177,
+          0.0,
+          638.4335433691358
+        ],
+        [
+          0.0,
+          22672.136000205177,
+          369.8424301700592
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993324826455307,
+          -0.0365281270540664,
+          -0.000533913328111423
+        ],
+        [
+          -0.0023944195583271355,
+          0.08007578696601883,
+          -0.9967859023364801
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04310563713780152,
+        0.39965974377178165,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_01_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.011219056210701,
+          0.00015185544587758952,
+          -8.80132056622876
+        ],
+        [
+          -0.00015185544587758952,
+          1.011219056210701,
+          5.900757419568457
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 975,
+      "inliers": 828,
+      "median_inlier_error_px": 0.6045789289479147,
+      "similarity": [
+        [
+          1.011219056210701,
+          0.00015185544587758952,
+          -8.80132056622876
+        ],
+        [
+          -0.00015185544587758952,
+          1.011219056210701,
+          5.900757419568457
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1398,
+      "inliers": 1263,
+      "median_inlier_error_px": 0.6150267499223191,
+      "similarity": [
+        [
+          0.9997864627961021,
+          -4.7827905086406505e-05,
+          1.351048626272043
+        ],
+        [
+          4.7827905086406505e-05,
+          0.9997864627961021,
+          0.1291117677384654
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 1.2258997118654462
+    },
+    "video_time_origin_s": 3.059799345689984,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.948727806712625,
+        3.1887278067126252
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.046249482153021
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_02": {
+    "camera": {
+      "sample_id": "SL_02",
+      "K": [
+        [
+          22681.509176834854,
+          0.0,
+          654.5871678732267
+        ],
+        [
+          0.0,
+          22681.509176834854,
+          365.7665553933665
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993326147736762,
+          -0.036523656189418593,
+          -0.0005895660816341928
+        ],
+        [
+          -0.0023386246190475915,
+          0.08007782628707147,
+          -0.9967858709733142
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04312795095516621,
+        0.3996573364661167,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_02_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.011637107106885,
+          0.00020840015655415337,
+          7.064395268460715
+        ],
+        [
+          -0.00020840015655415337,
+          1.011637107106885,
+          1.710572935082562
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 952,
+      "inliers": 833,
+      "median_inlier_error_px": 0.6791425355237054,
+      "similarity": [
+        [
+          1.011637107106885,
+          0.00020840015655415337,
+          7.064395268460715
+        ],
+        [
+          -0.00020840015655415337,
+          1.011637107106885,
+          1.710572935082562
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1500,
+      "inliers": 1395,
+      "median_inlier_error_px": 0.1120555030902164,
+      "similarity": [
+        [
+          0.9999959346267974,
+          -3.504153503372481e-05,
+          0.11469718872154272
+        ],
+        [
+          3.504153503372481e-05,
+          0.9999959346267974,
+          0.02143340346387576
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.11103672699900893
+    },
+    "video_time_origin_s": 3.137775222816237,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        3.0241706585544876,
+        3.264170658554488
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 0.8911777457130182
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_03": {
+    "camera": {
+      "sample_id": "SL_03",
+      "K": [
+        [
+          22495.62909876321,
+          0.0,
+          625.2077550796854
+        ],
+        [
+          0.0,
+          22495.62909876321,
+          364.7784288174505
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993311846179175,
+          -0.03656749278895174,
+          -4.3832405812564525e-05
+        ],
+        [
+          -0.002885752181179715,
+          0.08005781782833712,
+          -0.9967860443640417
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04290913477674767,
+        0.39968088883194414,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_03_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0033464758689445,
+          -0.0003426332557307447,
+          -16.81064150437613
+        ],
+        [
+          0.0003426332557307447,
+          1.0033464758689445,
+          3.3544122209627583
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 156,
+      "inliers": 117,
+      "median_inlier_error_px": 0.6565924802282503,
+      "similarity": [
+        [
+          1.0033464758689445,
+          -0.0003426332557307447,
+          -16.81064150437613
+        ],
+        [
+          0.0003426332557307447,
+          1.0033464758689445,
+          3.3544122209627583
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1176,
+      "inliers": 846,
+      "median_inlier_error_px": 0.654139167535847,
+      "similarity": [
+        [
+          1.0062638574467397,
+          0.0004572018490662692,
+          -3.8021965552072277
+        ],
+        [
+          -0.0004572018490662692,
+          1.0062638574467397,
+          -2.2759382241337693
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.9916130716675144
+    },
+    "video_time_origin_s": 3.057158390208918,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9412389733346775,
+        3.1812389733346778
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.4847009399783873
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_04": {
+    "camera": {
+      "sample_id": "SL_04",
+      "K": [
+        [
+          22743.738200483618,
+          0.0,
+          654.5728863013026
+        ],
+        [
+          0.0,
+          22743.738200483618,
+          365.8751002324358
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993332033257862,
+          -0.0365022833832211,
+          -0.0008555924461037043
+        ],
+        [
+          -0.0020719184646494316,
+          0.08008757102145296,
+          -0.9967856781283323
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04323461164201667,
+        0.3996458120648157,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_04_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0144125443400114,
+          0.0004797026064635288,
+          5.176164985368407
+        ],
+        [
+          -0.0004797026064635288,
+          1.0144125443400114,
+          0.9935939381683704
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 158,
+      "inliers": 120,
+      "median_inlier_error_px": 0.7302472992967913,
+      "similarity": [
+        [
+          1.0144125443400114,
+          0.0004797026064635288,
+          5.176164985368407
+        ],
+        [
+          -0.0004797026064635288,
+          1.0144125443400114,
+          0.9935939381683704
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1492,
+      "inliers": 1404,
+      "median_inlier_error_px": 0.06051974497455946,
+      "similarity": [
+        [
+          0.9999842086924908,
+          9.484753434587546e-06,
+          0.059444426318677315
+        ],
+        [
+          -9.484753434587546e-06,
+          0.9999842086924908,
+          -0.016796482322816574
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.06168277204943609
+    },
+    "video_time_origin_s": 2.7010792635391443,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.600032627604872,
+        2.8400326276048724
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.479636078533427
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_05": {
+    "camera": {
+      "sample_id": "SL_05",
+      "K": [
+        [
+          22725.21077257592,
+          0.0,
+          661.4233168760867
+        ],
+        [
+          0.0,
+          22725.21077257592,
+          369.3895804067687
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993327211066161,
+          -0.03651997908480792,
+          -0.0006353371478639502
+        ],
+        [
+          -0.0022927366066799616,
+          0.08007950331982862,
+          -0.9967858428503595
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043146302637183075,
+        0.3996553556672581,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_05_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0135862681544046,
+          0.00025534421030496833,
+          12.63618134155798
+        ],
+        [
+          -0.00025534421030496833,
+          1.0135862681544046,
+          4.6619441657782374
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 166,
+      "inliers": 120,
+      "median_inlier_error_px": 0.5014812164623521,
+      "similarity": [
+        [
+          1.0135862681544046,
+          0.00025534421030496833,
+          12.63618134155798
+        ],
+        [
+          -0.00025534421030496833,
+          1.0135862681544046,
+          4.6619441657782374
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1711,
+      "inliers": 1660,
+      "median_inlier_error_px": 0.023488579546322885,
+      "similarity": [
+        [
+          0.9999648223175774,
+          -2.318486498329298e-05,
+          0.02458578841234688
+        ],
+        [
+          2.318486498329298e-05,
+          0.9999648223175774,
+          0.01950006287662845
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.023463957536251735
+    },
+    "video_time_origin_s": 2.7254002899954584,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.614739501156645,
+        2.8547395011566454
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.4227085545136005
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_06": {
+    "camera": {
+      "sample_id": "SL_06",
+      "K": [
+        [
+          22743.990055625276,
+          0.0,
+          658.9070805778052
+        ],
+        [
+          0.0,
+          22743.990055625276,
+          365.4257993529688
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.999331353392632,
+          -0.036562762101161515,
+          -0.00010273258641025768
+        ],
+        [
+          -0.0028267016028916342,
+          0.08005997846514273,
+          -0.9967860400337721
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.042932751882972714,
+        0.3996783526293826,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_06_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0144238505161374,
+          -0.00028647366738627253,
+          9.778946767736283
+        ],
+        [
+          0.00028647366738627253,
+          1.0144238505161374,
+          0.04987002003214035
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 185,
+      "inliers": 134,
+      "median_inlier_error_px": 0.5868022644608781,
+      "similarity": [
+        [
+          1.0144238505161374,
+          -0.00028647366738627253,
+          9.778946767736283
+        ],
+        [
+          0.00028647366738627253,
+          1.0144238505161374,
+          0.04987002003214035
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1734,
+      "inliers": 1666,
+      "median_inlier_error_px": 0.05767119260263405,
+      "similarity": [
+        [
+          1.00005355064049,
+          2.1062040466272414e-06,
+          -0.07915228184138193
+        ],
+        [
+          -2.1062040466272414e-06,
+          1.00005355064049,
+          -0.008014295401187095
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.04935319453130817
+    },
+    "video_time_origin_s": 2.7274361593799448,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.6185805048818933,
+        2.8585805048818935
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.032813912536151
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_07": {
+    "camera": {
+      "sample_id": "SL_07",
+      "K": [
+        [
+          22617.584250543117,
+          0.0,
+          668.2122438126514
+        ],
+        [
+          0.0,
+          22617.584250543117,
+          365.07532939186575
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993327534882,
+          -0.03651884457128915,
+          -0.0006494589057272894
+        ],
+        [
+          -0.002278578766150152,
+          0.08008002070106672,
+          -0.9967858337493178
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.0431519646677099,
+        0.3996547443608029,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_07_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0087859232848249,
+          0.0002684266676006105,
+          22.49261931002731
+        ],
+        [
+          -0.0002684266676006105,
+          1.0087859232848249,
+          2.0841900765932153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 143,
+      "inliers": 119,
+      "median_inlier_error_px": 0.636885276948571,
+      "similarity": [
+        [
+          1.0087859232848249,
+          0.0002684266676006105,
+          22.49261931002731
+        ],
+        [
+          -0.0002684266676006105,
+          1.0087859232848249,
+          2.0841900765932153
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1007,
+      "inliers": 840,
+      "median_inlier_error_px": 0.45730739428758227,
+      "similarity": [
+        [
+          1.0001396952455692,
+          2.027875416822281e-05,
+          -0.4905197077562031
+        ],
+        [
+          -2.027875416822281e-05,
+          1.0001396952455692,
+          -0.08965270123494802
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.41389471587201065
+    },
+    "video_time_origin_s": 3.0632360579906948,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9383452678709805,
+        3.1783452678709807
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.3649347592558705
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_08": {
+    "camera": {
+      "sample_id": "SL_08",
+      "K": [
+        [
+          22295.068560715343,
+          0.0,
+          660.4839768759417
+        ],
+        [
+          0.0,
+          22295.068560715343,
+          367.30205673326657
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993342290262136,
+          -0.03645625109077658,
+          -0.001428444254970439
+        ],
+        [
+          -0.0014976021115947905,
+          0.08010853562955388,
+          -0.9967850218112246
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.0434642806381108,
+        0.39962089916994276,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_08_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          0.9944006189429648,
+          0.0010417208610835047,
+          23.692561242454204
+        ],
+        [
+          -0.0010417208610835047,
+          0.9944006189429648,
+          9.984535264892676
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 146,
+      "inliers": 93,
+      "median_inlier_error_px": 0.555220456606138,
+      "similarity": [
+        [
+          0.9944006189429648,
+          0.0010417208610835047,
+          23.692561242454204
+        ],
+        [
+          -0.0010417208610835047,
+          0.9944006189429648,
+          9.984535264892676
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1324,
+      "inliers": 1210,
+      "median_inlier_error_px": 0.14451730731440457,
+      "similarity": [
+        [
+          1.000013956531815,
+          -6.74013246906002e-05,
+          0.01780458026603871
+        ],
+        [
+          6.74013246906002e-05,
+          1.000013956531815,
+          0.07560140409377633
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.1299051451256083
+    },
+    "video_time_origin_s": 3.031242903211936,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9222691332552557,
+        3.162269133255256
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.7172754317629126
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_09": {
+    "camera": {
+      "sample_id": "SL_09",
+      "K": [
+        [
+          22746.131302310758,
+          0.0,
+          650.7442126163621
+        ],
+        [
+          0.0,
+          22746.131302310758,
+          367.4481719177281
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.9993327680370384,
+          -0.03651833253770603,
+          -0.0006558323690758315
+        ],
+        [
+          -0.0022721890176992804,
+          0.08008025420146199,
+          -0.9967858295762921
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.043154520065173486,
+        0.3996544684383331,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_09_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0145193568539321,
+          0.00027643912248098316,
+          1.352306145752426
+        ],
+        [
+          -0.00027643912248098316,
+          1.0145193568539321,
+          2.398124488700296
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 141,
+      "inliers": 102,
+      "median_inlier_error_px": 0.4191351060171773,
+      "similarity": [
+        [
+          1.0145193568539321,
+          0.00027643912248098316,
+          1.352306145752426
+        ],
+        [
+          -0.00027643912248098316,
+          1.0145193568539321,
+          2.398124488700296
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1403,
+      "inliers": 1081,
+      "median_inlier_error_px": 0.4701874951720446,
+      "similarity": [
+        [
+          1.0000100029012662,
+          1.1212023150551238e-05,
+          -0.9832969788968013
+        ],
+        [
+          -1.1212023150551238e-05,
+          1.0000100029012662,
+          0.0435965728187664
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.9758097128280794
+    },
+    "video_time_origin_s": 3.014618114770143,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9032886905145485,
+        3.1432886905145487
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.797848876254293
+    },
+    "camera_transfer_check": "fixed-window supported"
+  },
+  "SL_10": {
+    "camera": {
+      "sample_id": "SL_10",
+      "K": [
+        [
+          22757.467151896664,
+          0.0,
+          639.1693927596791
+        ],
+        [
+          0.0,
+          22757.467151896664,
+          366.5682285922281
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "R_world_to_camera": [
+        [
+          -0.999332320415043,
+          -0.03653347777996917,
+          -0.0004673063082570024
+        ],
+        [
+          -0.002461196738699537,
+          0.08007334591239301,
+          -0.9967859357881245
+        ],
+        [
+          0.036453475616169344,
+          -0.9961192520354653,
+          -0.08010979865039355
+        ]
+      ],
+      "T_world_to_camera_m": [
+        0.04307893106192613,
+        0.3996626232753618,
+        174.06061871214246
+      ],
+      "image_size": [
+        1280,
+        720
+      ],
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "camera_segment_id": "SL_10_fixed_flight",
+      "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+      "base_calibration_samples": [
+        "FF_02",
+        "SL_02"
+      ],
+      "base_calibration_split": "train",
+      "image_similarity_from_FF_02": [
+        [
+          1.0150249907828137,
+          8.460119742392734e-05,
+          -10.477057772394229
+        ],
+        [
+          -8.460119742392734e-05,
+          1.0150249907828137,
+          1.213376676766445
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "fitted_with_this_pitch_ball_labels": false,
+      "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+    },
+    "background_registration": {
+      "matches": 153,
+      "inliers": 117,
+      "median_inlier_error_px": 0.5696824187073891,
+      "similarity": [
+        [
+          1.0150249907828137,
+          8.460119742392734e-05,
+          -10.477057772394229
+        ],
+        [
+          -8.460119742392734e-05,
+          1.0150249907828137,
+          1.213376676766445
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels"
+    },
+    "within_clip_background": {
+      "matches": 1193,
+      "inliers": 1077,
+      "median_inlier_error_px": 0.19564930450720427,
+      "similarity": [
+        [
+          1.0000205305672398,
+          -0.00012806324938858973,
+          -0.11889395928775112
+        ],
+        [
+          0.00012806324938858973,
+          1.0000205305672398,
+          0.02442279012132474
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source": "static wall ORB + RANSAC, no ball labels",
+      "max_roi_drift_px": 0.2094493895035248
+    },
+    "video_time_origin_s": 3.081200115881912,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.9569439283940357,
+        3.196943928394036
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.9061147772757305
+    },
+    "camera_transfer_check": "fixed-window supported"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "architecture": "8 -> 32 Tanh -> 32 Tanh -> 3 non-gravity acceleration",
+  "state": [
+    "x",
+    "y",
+    "z",
+    "vx",
+    "vy",
+    "vz"
+  ],
+  "pitch_encoding": {
+    "FF": [
+      1,
+      0
+    ],
+    "SL": [
+      0,
+      1
+    ]
+  },
+  "parameter_count": 1443,
+  "solver": "differentiable RK4, shortened last step to exact video PTS",
+  "max_step_s": 0.004166666666666667,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0,
+  "loss": "normalized position MSE + 0.25 normalized velocity MSE + 1e-6 mean-square weight regularization",
+  "per_pitch_loss_weights": "equal",
+  "seed": 101,
+  "device": "cpu",
+  "dtype": "float64",
+  "torch_threads": 1,
+  "batch_size_pitches": 13,
+  "max_epochs": 600,
+  "early_stop_patience_epochs": 100,
+  "validation_interval_epochs": 5,
+  "selection": "minimum validation position+0.25 velocity loss, no weight regularization",
+  "training_start": "last reliable prefix frame",
+  "prediction_prefix": "ceil(visible manual count / 3)",
+  "two_dimensional_loss_used": false,
+  "camera_fixed": true,
+  "training_samples": [
+    "FF_01",
+    "FF_02",
+    "FF_04",
+    "FF_06",
+    "FF_07",
+    "FF_08",
+    "SL_01",
+    "SL_02",
+    "SL_04",
+    "SL_05",
+    "SL_06",
+    "SL_07",
+    "SL_09"
+  ],
+  "validation_samples": [
+    "FF_10",
+    "SL_10"
+  ],
+  "test_samples": [
+    "FF_03",
+    "FF_09",
+    "SL_03",
+    "SL_08"
+  ],
+  "prepared_data_sha256": "969b0373af6b90316a89a263e4a0e03bdfa44e80975030f6cfff6590b7ce1c1d",
+  "initial_state_source": "Statcast reference position and velocity at last prefix frame; oracle reference input",
+  "model_inputs": [
+    "initial position_m[3]",
+    "initial velocity_mps[3]",
+    "FF/SL encoding",
+    "elapsed timestamps"
+  ],
+  "forbidden_inputs": [
+    "net acceleration",
+    "future states",
+    "sample_id",
+    "future 2D centers"
+  ],
+  "limitations": "reference states originate from whole-pitch Statcast fit; not independent 3D truth or video-only state inference",
+  "versions": {
+    "torch": "2.2.2",
+    "numpy": "1.26.4"
+  },
+  "gradient_clip_norm": 10.0,
+  "minimum_validation_improvement": 1e-09,
+  "output_layer_initialization": "normal weight std 0.01, zero bias"
+}

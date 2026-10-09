@@ -1,0 +1,17 @@
+{
+  "models": {
+    "base": "SG161222/Realistic_Vision_V5.1_noVAE",
+    "motion": "guoyww/animatediff-motion-adapter-v1-5-3",
+    "control": "guoyww/animatediff-sparsectrl-rgb",
+    "vae": "stabilityai/sd-vae-ft-mse",
+    "lora": "guoyww/animatediff-motion-lora-v1-5-3"
+  },
+  "revisions": {
+    "base": "1e9f017a7b1eaefb63a1900ea6c5953d2739fd21",
+    "motion": "2e8139b1d1269fd8a21deb96ad19455e187692eb",
+    "control": "b8003d681d813c095e459b9141122894daff2d13",
+    "vae": "31f26fdeee1355a5c34592e401dd41e45d25a493",
+    "lora": "8b5ff2775000d82040bf595e66f14db7246c1534"
+  },
+  "source": "Recorded stage-5 execution"
+}

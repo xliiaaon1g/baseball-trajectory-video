@@ -1,0 +1,1203 @@
+{
+  "input": {
+    "schema_version": 1,
+    "sample_id_metadata_only": "FF_03",
+    "initial_state": [
+      -0.40000556310426905,
+      10.508303544308928,
+      1.7478135295599784,
+      0.2001674958523184,
+      -41.00593819007243,
+      -1.669899820975044
+    ],
+    "initial_state_units": [
+      "m",
+      "m",
+      "m",
+      "m/s",
+      "m/s",
+      "m/s"
+    ],
+    "pitch_type": "FF",
+    "elapsed_times_s": [
+      0.0,
+      0.01667777777777779,
+      0.03336666666666677,
+      0.05004444444444456,
+      0.06673333333333353,
+      0.08341111111111132,
+      0.10009999999999986,
+      0.11677777777777765,
+      0.13346666666666662,
+      0.1501444444444444,
+      0.1668333333333334,
+      0.18351111111111118,
+      0.20020000000000016,
+      0.21687777777777795,
+      0.23356666666666692,
+      0.2502444444444447,
+      0.26693333333333324,
+      0.28361111111111104
+    ],
+    "initial_state_source": "Statcast reference at last reliable prefix frame; whole-pitch reference fit",
+    "input_scope": "reference 3D state input, not video-only inference",
+    "prediction_start_frame_metadata_only": 169,
+    "prefix_frame_ids_metadata_only": [
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ]
+  },
+  "camera": {
+    "sample_id": "FF_03",
+    "K": [
+      [
+        22722.952718813922,
+        0.0,
+        655.2528531597244
+      ],
+      [
+        0.0,
+        22722.952718813922,
+        366.93896759368346
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "R_world_to_camera": [
+      [
+        -0.9993328612803762,
+        -0.03651501606670944,
+        -0.0006971132074748716
+      ],
+      [
+        -0.002230802698006065,
+        0.08008176650120301,
+        -0.9967858015608815
+      ],
+      [
+        0.036453475616169344,
+        -0.9961192520354653,
+        -0.08010979865039355
+      ]
+    ],
+    "T_world_to_camera_m": [
+      0.04317107129852147,
+      0.39965268089645034,
+      174.06061871214246
+    ],
+    "image_size": [
+      1280,
+      720
+    ],
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "camera_segment_id": "FF_03_fixed_flight",
+    "calibration_source": "stage2 FF_02 effective camera + static-background similarity",
+    "base_calibration_samples": [
+      "FF_02",
+      "SL_02"
+    ],
+    "base_calibration_split": "train",
+    "image_similarity_from_FF_02": [
+      [
+        1.0134855370266875,
+        0.0003181298677557819,
+        6.507582710252328
+      ],
+      [
+        -0.0003181298677557819,
+        1.0134855370266875,
+        2.2877773794396434
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "fitted_with_this_pitch_ball_labels": false,
+    "assumptions": "common effective camera center; square pixels; zero distortion; fixed within flight"
+  },
+  "rows": [
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 169,
+      "video_pts_s": 2.8641111111111113,
+      "elapsed_from_seed_s": 0.0,
+      "position_m": [
+        -0.40000556310426905,
+        10.508303544308928,
+        1.7478135295599784
+      ],
+      "velocity_mps": [
+        0.2001674958523184,
+        -41.00593819007243,
+        -1.669899820975044
+      ],
+      "net_acceleration_mps2": [
+        1.0350961149775655,
+        8.297290866896104,
+        -5.885652902406227
+      ],
+      "state_source": "reference_initial",
+      "event_type": "none",
+      "projected_uv_px": [
+        663.313914046188,
+        297.4059835791145
+      ],
+      "reference_position_m": [
+        -0.40000556310426905,
+        10.508303544308928,
+        1.7478135295599784
+      ],
+      "reference_velocity_mps": [
+        0.2001674958523184,
+        -41.00593819007243,
+        -1.669899820975044
+      ],
+      "reference_projected_uv_px": [
+        663.313914046188,
+        297.4059835791145
+      ],
+      "position_error_m": 0.0,
+      "velocity_error_mps": 0.0,
+      "visibility": "visible",
+      "observed_uv_px": [
+        664.27,
+        297.65
+      ],
+      "predicted_observation_error_px": 0.9867341915320484,
+      "reference_observation_error_px": 0.9867341915320484,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": false
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 170,
+      "video_pts_s": 2.880788888888889,
+      "elapsed_from_seed_s": 0.01667777777777779,
+      "position_m": [
+        -0.39652179559522555,
+        9.825580790223349,
+        1.719149449289017
+      ],
+      "velocity_mps": [
+        0.21769371048567626,
+        -40.86554490117984,
+        -1.7672221474587695
+      ],
+      "net_acceleration_mps2": [
+        1.0666149447399516,
+        8.536858846354429,
+        -5.786342334096323
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        666.2527129224661,
+        294.08021662925836
+      ],
+      "reference_position_m": [
+        -0.39651638302002384,
+        9.825642125549178,
+        1.7190936896463764
+      ],
+      "reference_velocity_mps": [
+        0.2182551658159928,
+        -40.85885553194955,
+        -1.774184912168415
+      ],
+      "reference_projected_uv_px": [
+        666.2516631153846,
+        294.0885652093365
+      ],
+      "position_error_m": 8.306898285379211e-05,
+      "velocity_error_mps": 0.009671762258706312,
+      "visibility": "visible",
+      "observed_uv_px": [
+        667.35,
+        293.87
+      ],
+      "predicted_observation_error_px": 1.117242123149519,
+      "reference_observation_error_px": 1.119872610094073,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 171,
+      "video_pts_s": 2.897477777777778,
+      "elapsed_from_seed_s": 0.03336666666666677,
+      "position_m": [
+        -0.3927387387960044,
+        9.144779823860752,
+        1.6888550511185252
+      ],
+      "velocity_mps": [
+        0.2357554886759974,
+        -40.72115316282777,
+        -1.8630074093995668
+      ],
+      "net_acceleration_mps2": [
+        1.0978414263590177,
+        8.765060030949467,
+        -5.693744881340066
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        669.1165631448783,
+        291.0263706767654
+      ],
+      "reference_position_m": [
+        -0.39272291469715126,
+        9.144981366189018,
+        1.688613733881406
+      ],
+      "reference_velocity_mps": [
+        0.236354886192701,
+        -40.71167488404777,
+        -1.8785394804378646
+      ],
+      "reference_projected_uv_px": [
+        669.1134064629725,
+        291.06167392582233
+      ],
+      "position_error_m": 0.0003148074349795339,
+      "velocity_error_mps": 0.018205556205542976,
+      "visibility": "visible",
+      "observed_uv_px": [
+        669.22,
+        290.43
+      ],
+      "predicted_observation_error_px": 0.605274456014024,
+      "reference_observation_error_px": 0.6406045041207731,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 172,
+      "video_pts_s": 2.914155555555556,
+      "elapsed_from_seed_s": 0.05004444444444456,
+      "position_m": [
+        -0.3886527506744877,
+        8.466870612046645,
+        1.6569964187557402
+      ],
+      "velocity_mps": [
+        0.2543216770395989,
+        -40.57315682190729,
+        -1.9572440436058733
+      ],
+      "net_acceleration_mps2": [
+        1.1285080157831322,
+        8.980477526398138,
+        -5.60832877557208
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        671.901209847391,
+        288.2421498265046
+      ],
+      "reference_position_m": [
+        -0.3886302093584515,
+        8.467227605455301,
+        1.6564142480916522
+      ],
+      "reference_velocity_mps": [
+        0.2544425561563754,
+        -40.56459222592488,
+        -1.9828245716312354
+      ],
+      "reference_projected_uv_px": [
+        671.8964133630341,
+        288.32560640094323
+      ],
+      "position_error_m": 0.0006832825820095915,
+      "velocity_error_mps": 0.026976477348961928,
+      "visibility": "visible",
+      "observed_uv_px": [
+        672.58,
+        288.18
+      ],
+      "predicted_observation_error_px": 0.6816294244041798,
+      "reference_observation_error_px": 0.698921965768771,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 173,
+      "video_pts_s": 2.930844444444445,
+      "elapsed_from_seed_s": 0.06673333333333353,
+      "position_m": [
+        -0.38424985004062023,
+        7.791009859336935,
+        1.6235548885384359
+      ],
+      "velocity_mps": [
+        0.27340609847610703,
+        -40.42157809390316,
+        -2.0501788988112106
+      ],
+      "net_acceleration_mps2": [
+        1.1584254029247065,
+        9.182398757898714,
+        -5.5302574073645
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        674.6099646435537,
+        285.71783152733707
+      ],
+      "reference_position_m": [
+        -0.3842328136990094,
+        7.791477773713465,
+        1.622452328232091
+      ],
+      "reference_velocity_mps": [
+        0.27254227653308366,
+        -40.417411578023106,
+        -2.0871791399006847
+      ],
+      "reference_projected_uv_px": [
+        674.6054487853868,
+        285.87306490733476
+      ],
+      "position_error_m": 0.001197861982795415,
+      "velocity_error_mps": 0.037244112066300815,
+      "visibility": "visible",
+      "observed_uv_px": [
+        675.05,
+        284.98
+      ],
+      "predicted_observation_error_px": 0.8590846743222322,
+      "reference_observation_error_px": 0.9975924574328261,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 174,
+      "video_pts_s": 2.9475222222222226,
+      "elapsed_from_seed_s": 0.08341111111111132,
+      "position_m": [
+        -0.3795275844855202,
+        7.118153651093396,
+        1.5885966980687678
+      ],
+      "velocity_mps": [
+        0.2929685657861394,
+        -40.26685364188833,
+        -2.141813422772148
+      ],
+      "net_acceleration_mps2": [
+        1.187319994192811,
+        9.369684387587949,
+        -5.459839114871971
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        677.2388738527571,
+        283.4511253487032
+      ],
+      "reference_position_m": [
+        -0.37953658310585503,
+        7.118631671005781,
+        1.5867731965661849
+      ],
+      "reference_velocity_mps": [
+        0.29062994649675805,
+        -40.27032891990022,
+        -2.1914642310940557
+      ],
+      "reference_projected_uv_px": [
+        677.2379379309227,
+        283.7037490736054
+      ],
+      "position_error_m": 0.0018851370617881781,
+      "velocity_error_mps": 0.04982719603248239,
+      "visibility": "visible",
+      "observed_uv_px": [
+        677.64,
+        283.62
+      ],
+      "predicted_observation_error_px": 0.4352250381727869,
+      "reference_observation_error_px": 0.4106918732096525,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 175,
+      "video_pts_s": 2.964211111111111,
+      "elapsed_from_seed_s": 0.10009999999999986,
+      "position_m": [
+        -0.3744716187496296,
+        6.447457594805779,
+        1.552094879480167
+      ],
+      "velocity_mps": [
+        0.31301643084709935,
+        -40.10902572734698,
+        -2.232397810813824
+      ],
+      "net_acceleration_mps2": [
+        1.2149939918143169,
+        9.541851783343144,
+        -5.397109870378308
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        679.7911531950841,
+        281.4337087069893
+      ],
+      "reference_position_m": [
+        -0.37453526010984356,
+        6.447792766882285,
+        1.5493293126120342
+      ],
+      "reference_velocity_mps": [
+        0.30872966687346576,
+        -40.123148271998446,
+        -2.2958187993635026
+      ],
+      "reference_projected_uv_px": [
+        679.7983990058784,
+        281.81127983238974
+      ],
+      "position_error_m": 0.002786530216185246,
+      "velocity_error_mps": 0.06511562332817467,
+      "visibility": "visible",
+      "observed_uv_px": [
+        680.73,
+        281.2
+      ],
+      "predicted_observation_error_px": 0.9674983632148472,
+      "reference_observation_error_px": 1.1142456846381734,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 176,
+      "video_pts_s": 2.980888888888889,
+      "elapsed_from_seed_s": 0.11677777777777765,
+      "position_m": [
+        -0.36908099399109334,
+        5.7798626302947405,
+        1.5141154818719234
+      ],
+      "velocity_mps": [
+        0.3335003613919641,
+        -39.948563704599266,
+        -2.3219409703792797
+      ],
+      "net_acceleration_mps2": [
+        1.2411748703297292,
+        9.698086044491465,
+        -5.34220867294959
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        682.2631851987921,
+        279.6633203977662
+      ],
+      "reference_position_m": [
+        -0.3692355042622346,
+        5.779854322200636,
+        1.5101705350699761
+      ],
+      "reference_velocity_mps": [
+        0.3268173368371402,
+        -39.97606561387556,
+        -2.4001038905568737
+      ],
+      "reference_projected_uv_px": [
+        682.284410087683,
+        280.1947701456863
+      ],
+      "position_error_m": 0.003947980207461724,
+      "velocity_error_mps": 0.08312917611603596,
+      "visibility": "visible",
+      "observed_uv_px": [
+        682.89,
+        280.2
+      ],
+      "predicted_observation_error_px": 0.8251798534059382,
+      "reference_observation_error_px": 0.6056124943197904,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 177,
+      "video_pts_s": 2.997577777777778,
+      "elapsed_from_seed_s": 0.13346666666666662,
+      "position_m": [
+        -0.36334124019725944,
+        5.1145227328677505,
+        1.4746231928856461
+      ],
+      "velocity_mps": [
+        0.35442108771679215,
+        -39.785521731609286,
+        -2.4106921785445046
+      ],
+      "net_acceleration_mps2": [
+        1.265665860971107,
+        9.838158262432746,
+        -5.295046435935394
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        684.6581202028053,
+        278.1329937011121
+      ],
+      "reference_position_m": [
+        -0.36363025392965354,
+        5.113926345695446,
+        1.469244687021234
+      ],
+      "reference_velocity_mps": [
+        0.3449170572138484,
+        -39.828884965973785,
+        -2.5044584588263232
+      ],
+      "reference_projected_uv_px": [
+        684.7002503798709,
+        278.84873265667056
+      ],
+      "position_error_m": 0.005419181850641187,
+      "velocity_error_mps": 0.10374397335864818,
+      "visibility": "visible",
+      "observed_uv_px": [
+        685.22,
+        277.87
+      ],
+      "predicted_observation_error_px": 0.6203826184865405,
+      "reference_observation_error_px": 1.108177459100199,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 178,
+      "video_pts_s": 3.0142555555555557,
+      "elapsed_from_seed_s": 0.1501444444444444,
+      "position_m": [
+        -0.35725319398123095,
+        4.4523627909837025,
+        1.4336837173573247
+      ],
+      "velocity_mps": [
+        0.3757204174463191,
+        -39.62039067944143,
+        -2.4986622778323415
+      ],
+      "net_acceleration_mps2": [
+        1.2882115723112098,
+        9.961593687683933,
+        -5.255603162085558
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        686.9727085556596,
+        276.84049808276757
+      ],
+      "reference_position_m": [
+        -0.3577269728275899,
+        4.450895559039829,
+        1.4266062636030235
+      ],
+      "reference_velocity_mps": [
+        0.3630047271775228,
+        -39.6818023078509,
+        -2.6087435500196943
+      ],
+      "reference_projected_uv_px": [
+        687.043647873234,
+        277.77170372731024
+      ],
+      "position_error_m": 0.007243451360826108,
+      "velocity_error_mps": 0.12669239665150095,
+      "visibility": "visible",
+      "observed_uv_px": [
+        686.71,
+        277.71
+      ],
+      "predicted_observation_error_px": 0.9083222827210335,
+      "reference_observation_error_px": 0.33930554560387105,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 179,
+      "video_pts_s": 3.0309444444444447,
+      "elapsed_from_seed_s": 0.1668333333333334,
+      "position_m": [
+        -0.3508024681230601,
+        3.7925348925285314,
+        1.3912534959685876
+      ],
+      "velocity_mps": [
+        0.3973927523336475,
+        -39.45322812977671,
+        -2.586095713673849
+      ],
+      "net_acceleration_mps2": [
+        1.3086322202855376,
+        10.068413517380051,
+        -5.223681750862031
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        689.2100629083219,
+        275.78016474481274
+      ],
+      "reference_position_m": [
+        -0.35151779515843934,
+        3.789878510152961,
+        1.3821984514596906
+      ],
+      "reference_velocity_mps": [
+        0.38110444755423106,
+        -39.534621659949124,
+        -2.713098118289144
+      ],
+      "reference_projected_uv_px": [
+        689.3186501488675,
+        276.95906210667397
+      ],
+      "position_error_m": 0.009463714447873604,
+      "velocity_error_mps": 0.15172286052069303,
+      "visibility": "visible",
+      "observed_uv_px": [
+        689.04,
+        276.55
+      ],
+      "predicted_observation_error_px": 0.7883956575959636,
+      "reference_observation_error_px": 0.49495223262496646,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 180,
+      "video_pts_s": 3.0476222222222225,
+      "elapsed_from_seed_s": 0.18351111111111118,
+      "position_m": [
+        -0.34399197726778785,
+        3.135947344954645,
+        1.3473979095840434
+      ],
+      "velocity_mps": [
+        0.4193719260609429,
+        -39.28453524624559,
+        -2.673000292192819
+      ],
+      "net_acceleration_mps2": [
+        1.3267080233758255,
+        10.158472195399337,
+        -5.1991236031097685
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        691.367327596248,
+        274.949775644063
+      ],
+      "reference_position_m": [
+        -0.34501098880192116,
+        3.1317553815233787,
+        1.336080382165328
+      ],
+      "reference_velocity_mps": [
+        0.39919211751790545,
+        -39.38753900182624,
+        -2.8173832094825144
+      ],
+      "reference_projected_uv_px": [
+        691.5231322335071,
+        276.40877731738993
+      ],
+      "position_error_m": 0.012111868922224428,
+      "velocity_error_mps": 0.17850329168291357,
+      "visibility": "visible",
+      "observed_uv_px": [
+        691.2,
+        276.22
+      ],
+      "predicted_observation_error_px": 1.2811980482664589,
+      "reference_observation_error_px": 0.3742343061401443,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 181,
+      "video_pts_s": 3.0643111111111114,
+      "elapsed_from_seed_s": 0.20020000000000016,
+      "position_m": [
+        -0.33680761580901775,
+        2.4817503703201127,
+        1.3020653696208697
+      ],
+      "velocity_mps": [
+        0.4416468304606511,
+        -39.11436500963566,
+        -2.7596123435300357
+      ],
+      "net_acceleration_mps2": [
+        1.3422902428199461,
+        10.232020228183757,
+        -5.181641661378647
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        693.4476005277241,
+        274.34489119150345
+      ],
+      "reference_position_m": [
+        -0.3381978837962011,
+        2.475649260254832,
+        1.2881906059274044
+      ],
+      "reference_velocity_mps": [
+        0.41729183789461366,
+        -39.240358353924464,
+        -2.9217377777519644
+      ],
+      "reference_projected_uv_px": [
+        693.660917107823,
+        276.1170698758474
+      ],
+      "position_error_m": 0.01522056032655689,
+      "velocity_error_mps": 0.20676591810454903,
+      "visibility": "visible",
+      "observed_uv_px": [
+        693.36,
+        275.71
+      ],
+      "predicted_observation_error_px": 1.3679166317770837,
+      "reference_observation_error_px": 0.5062183220735825,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 182,
+      "video_pts_s": 3.080988888888889,
+      "elapsed_from_seed_s": 0.21687777777777795,
+      "position_m": [
+        -0.3292546199576546,
+        1.8308355307654125,
+        1.2553211080894406
+      ],
+      "velocity_mps": [
+        0.46414474433801167,
+        -38.94321827213413,
+        -2.845932299484206
+      ],
+      "net_acceleration_mps2": [
+        1.355206984489075,
+        10.289217607586504,
+        -5.1709540248116195
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        695.4484386211558,
+        273.96327167524083
+      ],
+      "reference_position_m": [
+        -0.33108755218522834,
+        1.8224337896512834,
+        1.2385928907568897
+      ],
+      "reference_velocity_mps": [
+        0.43537950785828805,
+        -39.09327569580158,
+        -3.0260228689453355
+      ],
+      "reference_projected_uv_px": [
+        695.7300240413564,
+        276.08135192528505
+      ],
+      "position_error_m": 0.018809097517552033,
+      "velocity_error_mps": 0.23617214576719334,
+      "visibility": "visible",
+      "observed_uv_px": [
+        695.16,
+        275.73
+      ],
+      "predicted_observation_error_px": 1.7901189378587858,
+      "reference_observation_error_px": 0.6696085297588448,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 183,
+      "video_pts_s": 3.097677777777778,
+      "elapsed_from_seed_s": 0.23356666666666692,
+      "position_m": [
+        -0.3213193308050253,
+        1.1823514591920459,
+        1.2071058261375005
+      ],
+      "velocity_mps": [
+        0.48685020512832305,
+        -38.77113616443876,
+        -2.932185521064432
+      ],
+      "net_acceleration_mps2": [
+        1.3653461133706168,
+        10.33052034603519,
+        -5.166690222246016
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        697.3729417433872,
+        273.8016300819105
+      ],
+      "reference_position_m": [
+        -0.32367051984293876,
+        1.1712385960010616,
+        1.1872211504243755
+      ],
+      "reference_velocity_mps": [
+        0.45347922823499626,
+        -38.946095047899796,
+        -3.1303774372147846
+      ],
+      "reference_projected_uv_px": [
+        697.7340580989118,
+        276.2986626037247
+      ],
+      "position_error_m": 0.022900308871490825,
+      "velocity_error_mps": 0.2664662617069867,
+      "visibility": "visible",
+      "observed_uv_px": [
+        697.5,
+        275.64
+      ],
+      "predicted_observation_error_px": 1.842755479251066,
+      "reference_observation_error_px": 0.6990133183363785,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 184,
+      "video_pts_s": 3.114355555555556,
+      "elapsed_from_seed_s": 0.2502444444444447,
+      "position_m": [
+        -0.3130094972787676,
+        0.5371731481924349,
+        1.1574849204801643
+      ],
+      "velocity_mps": [
+        0.5096856032658256,
+        -38.59860945768952,
+        -3.018361039628423
+      ],
+      "net_acceleration_mps2": [
+        1.3725862782853557,
+        10.356368188050514,
+        -5.168448867359707
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        699.219089284773,
+        273.85765755207774
+      ],
+      "reference_position_m": [
+        -0.31595666297751135,
+        0.5229307834235445,
+        1.1341437893777087
+      ],
+      "reference_velocity_mps": [
+        0.47156689819867065,
+        -38.79901238977691,
+        -3.2346625284081556
+      ],
+      "reference_projected_uv_px": [
+        699.6711800823989,
+        276.7658658397318
+      ],
+      "position_error_m": 0.027501620697842576,
+      "velocity_error_mps": 0.2973225603844244,
+      "visibility": "visible",
+      "observed_uv_px": [
+        698.96,
+        275.94
+      ],
+      "predicted_observation_error_px": 2.098398753312394,
+      "reference_observation_error_px": 1.089876825534337,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 185,
+      "video_pts_s": 3.1310444444444445,
+      "elapsed_from_seed_s": 0.26693333333333324,
+      "position_m": [
+        -0.30431203226579084,
+        -0.10555185295140002,
+        1.1063917947579096
+      ],
+      "velocity_mps": [
+        0.5326323182690951,
+        -38.4256609632303,
+        -3.104670430270578
+      ],
+      "net_acceleration_mps2": [
+        1.3768495536854872,
+        10.367398554448998,
+        -5.175773911069808
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        700.9899932452142,
+        274.1291362656826
+      ],
+      "reference_position_m": [
+        -0.3079357032986525,
+        -0.12335348260833667,
+        1.0792900849506055
+      ],
+      "reference_velocity_mps": [
+        0.4896666185753784,
+        -38.65183174187514,
+        -3.339017096677603
+      ],
+      "reference_projected_uv_px": [
+        701.5447835072083,
+        277.480797372062
+      ],
+      "position_error_m": 0.032627161762501654,
+      "velocity_error_mps": 0.3285081924687275,
+      "visibility": "visible",
+      "observed_uv_px": [
+        701.09,
+        276.34
+      ],
+      "predicted_observation_error_px": 2.2131244435690154,
+      "reference_observation_error_px": 1.228106950771097,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    },
+    {
+      "sample_id": "FF_03",
+      "pitch_type": "FF",
+      "split": "test",
+      "frame_index": 186,
+      "video_pts_s": 3.1477222222222223,
+      "elapsed_from_seed_s": 0.28361111111111104,
+      "position_m": [
+        -0.29523733283373343,
+        -0.7449646346920317,
+        1.0538924569529264
+      ],
+      "velocity_mps": [
+        0.555609493883117,
+        -38.25276256062136,
+        -3.191087381320383
+      ],
+      "net_acceleration_mps2": [
+        1.3780620504333276,
+        10.364296737234348,
+        -5.188149111346868
+      ],
+      "state_source": "predicted",
+      "event_type": "none",
+      "projected_uv_px": [
+        702.684056868203,
+        274.6136284837047
+      ],
+      "reference_position_m": [
+        -0.29961832117877046,
+        -0.7667536371598201,
+        1.0227330780277863
+      ],
+      "reference_velocity_mps": [
+        0.5077542885390528,
+        -38.50474908375226,
+        -3.443302187870973
+      ],
+      "reference_projected_uv_px": [
+        703.3531680782258,
+        278.43978178988436
+      ],
+      "position_error_m": 0.038273497128183974,
+      "velocity_error_mps": 0.35972161064004976,
+      "visibility": "visible",
+      "observed_uv_px": [
+        702.84,
+        276.55
+      ],
+      "predicted_observation_error_px": 1.9426407051934385,
+      "reference_observation_error_px": 1.9582177330134887,
+      "camera_segment_id": "FF_03_fixed_flight",
+      "used_as_prediction_target_metric": true
+    }
+  ],
+  "metrics": {
+    "sample_id": "FF_03",
+    "split": "test",
+    "pitch_type": "FF",
+    "prefix_manual_count": 9,
+    "prediction_start_frame": 169,
+    "future_frames": 17,
+    "future_visible_observations": 17,
+    "future_missing_observations": 0,
+    "prediction_horizon_s": 0.28361111111111104,
+    "position_error": {
+      "count": 17,
+      "units": "m",
+      "mean": 0.011792301844339222,
+      "median": 0.007243451360826108,
+      "p90": 0.02955183712370621,
+      "max": 0.038273497128183974,
+      "rmse": 0.016702606934214995
+    },
+    "velocity_error": {
+      "count": 17,
+      "units": "m/s",
+      "mean": 0.1497523008612877,
+      "median": 0.12669239665150095,
+      "p90": 0.3097968132181457,
+      "max": 0.35972161064004976,
+      "rmse": 0.18678735798246138
+    },
+    "predicted_to_manual_error": {
+      "count": 17,
+      "units": "px",
+      "mean": 1.1967286759244298,
+      "median": 0.9674983632148472,
+      "p90": 2.0049439244410205,
+      "max": 2.2131244435690154,
+      "rmse": 1.3204969568052622
+    },
+    "reference_to_manual_error": {
+      "count": 17,
+      "units": "px",
+      "mean": 0.8267795772082923,
+      "median": 0.698921965768771,
+      "p90": 1.1631663463648827,
+      "max": 1.9582177330134887,
+      "rmse": 0.9196326246815376
+    },
+    "predicted_to_reference_projection_error": {
+      "count": 17,
+      "units": "px",
+      "mean": 1.3186046120362935,
+      "median": 0.9339038168923312,
+      "p90": 3.124789703881479,
+      "max": 3.8842192180369772,
+      "rmse": 1.7965724857928638
+    },
+    "endpoint_position_error_m": 0.038273497128183974,
+    "endpoint_velocity_error_mps": 0.35972161064004976,
+    "step_halving_max_position_difference_m": 5.597880062559623e-12,
+    "step_halving_max_velocity_difference_mps": 1.4425243728217507e-11,
+    "predicted_speed_range_mps": [
+      38.38965464945199,
+      41.04041421923673
+    ],
+    "predicted_net_acceleration_norm_range_mps2": [
+      10.225329813004663,
+      11.671957551064875
+    ],
+    "median_pixel_error_over_nominal_ball_diameter": 0.09769625732718643,
+    "time_alignment": {
+      "method": "bounded 1D least squares; grid bracket + golden-section",
+      "fit_scope": "prefix manual observations only",
+      "frame_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169
+      ],
+      "uses_statcast_reference_geometry": true,
+      "uses_future_manual_observations": false,
+      "search_bounds_s": [
+        2.638798221360554,
+        2.878798221360554
+      ],
+      "at_search_boundary": false,
+      "prefix_rmse_px": 1.0499756643575306
+    },
+    "camera_transfer_check": "fixed-window supported"
+  }
+}

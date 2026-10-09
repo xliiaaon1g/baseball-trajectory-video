@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "sample_id_metadata_only": "FF_03",
+  "initial_state": [
+    -0.40000556310426905,
+    10.508303544308928,
+    1.7478135295599784,
+    0.2001674958523184,
+    -41.00593819007243,
+    -1.669899820975044
+  ],
+  "initial_state_units": [
+    "m",
+    "m",
+    "m",
+    "m/s",
+    "m/s",
+    "m/s"
+  ],
+  "pitch_type": "FF",
+  "elapsed_times_s": [
+    0.0,
+    0.01667777777777779,
+    0.03336666666666677,
+    0.05004444444444456,
+    0.06673333333333353,
+    0.08341111111111132,
+    0.10009999999999986,
+    0.11677777777777765,
+    0.13346666666666662,
+    0.1501444444444444,
+    0.1668333333333334,
+    0.18351111111111118,
+    0.20020000000000016,
+    0.21687777777777795,
+    0.23356666666666692,
+    0.2502444444444447,
+    0.26693333333333324,
+    0.28361111111111104
+  ],
+  "initial_state_source": "Statcast reference at last reliable prefix frame; whole-pitch reference fit",
+  "input_scope": "reference 3D state input, not video-only inference",
+  "prediction_start_frame_metadata_only": 169,
+  "prefix_frame_ids_metadata_only": [
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169
+  ]
+}
